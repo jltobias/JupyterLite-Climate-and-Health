@@ -1,24 +1,26 @@
-# Teaching and facilitation guide
+# Teaching with the original course
 
-This course supports inquiry by public-health students and practitioners with mixed coding experience. Reading and exploration require no Python knowledge; the lessons introduce basic lists, arithmetic, functions and tabular reasoning. Pair a domain practitioner with a learner comfortable editing code when useful.
+Use the **nine original core chapters** as the curriculum spine, followed by the two NBXX topic extensions when relevant. The [complete index](legacy.md) contains all 16 supplied notebooks; five older variants support comparison and historical context. The 14 modern runnable lessons are optional companion exercises, not a replacement sequence.
 
 ## Suggested sessions
 
-| Session | Activities | Observable outcome |
+| Original chapters | Teaching focus | Optional companion practice |
 |---|---|---|
-| 60 minutes: evidence literacy | 00, 01, selected 02; compare global and local questions | Learner states a source, baseline, unit and limitation without confusing observed and synthetic values |
-| 90 minutes: heat and continuity | 03, 04, 06; explorer heat and adaptation controls | Learner calculates a count/run, identifies a service bottleneck and explains why capacity is not a disease model |
-| 90 minutes: coasts and mobility | 05, 07, 08; 3D scene and guided story | Learner distinguishes water levels and datums, movement events and people, stress and observed bleaching |
-| 2 hours: adaptation studio | 09–12; comparison/export; peer briefing | Learner produces a sourced, equitable and appropriately limited scenario argument |
+| NB00; NB01 Background and foundations | Environment/API literacy, warming and heat questions | 00 orientation; 01 global temperature; 04 urban cooling |
+| NB01B; NB02; NB02B | Climate sources, data management and analysis | 02 grid/ensemble reasoning; 03 daily heat; 13 evidence atlas |
+| NB03 Impact assessment | Climate pathways, coastal access and service continuity | 05 coastal access; 06 continuity; 07 mobility |
+| NB04 Adaptation and mitigation | Green infrastructure, ecosystems and response choices | 08 coral stress; 09 food/water; 11 adaptation |
+| NB05 Modeling; NB06 Reflection | Examine assumptions, communicate decisions and reflect | 10 compound hazards; 12 capstone; scenario explorer |
+| NBXX air pollution and natural disasters | Extend discussion to interacting hazards | 10 compound hazards; 06 continuity |
 
-Begin with a local question rather than a country ranking. Ask which communities and workers are affected, whose experiences are absent, and who could validate the assumptions. A real city name is an orientation aid; no synthetic clinic should be presented as a real facility or actual PEPFAR site.
+Read the original archive notices with learners. Historical statements, placeholders and incomplete exercises remain unchanged. Treat them as material to examine, with the [migration crosswalk](migration.md) identifying methodological changes made only in the companions. The original notebook code is not verified executable end-to-end in Pyodide; do not run its installers, authenticated downloads or large-data workflows as a browser exercise.
 
-## Capstone rubric
+For practical coding, follow the relevant chapter's companion links and use Python (Pyodide). The companion Book pages have executed outputs; original Book chapters are non-executed reading copies. Quiz/flashcard JSON from the source is preserved for inspection, including the original question wording and its limitations.
 
-Award up to two points each for (1) evidence/scenario labeling, (2) units and datum, (3) reproducible arithmetic, (4) uncertainty and equity, and (5) sources/licensing. A strong submission includes an alternative interpretation and one concrete missing-data request. A numerical score is formative feedback, not accredited certification or professional competence assessment.
+## Reflection and assessment
 
-## Facilitate difficult topics carefully
+Use NB06 for the original reflection activity. If you add the optional companion capstone, assess evidence/scenario labeling, units and datum, reproducible arithmetic, uncertainty and equity, and source/licensing awareness. A strong response includes an alternative interpretation and a concrete missing-data request. Feedback is formative, not accredited certification or proof of professional competence.
 
-Discuss displacement and migration without stigmatizing people or inferring infection from mobility. Describe how conflict and social conditions can compound service disruption without attributing violence to a climate index. Discuss HIV/TB as continuity-of-care responsibilities; avoid patient-identifiable data and invented clinical predictions. Nature-based and engineering measures both need community participation, operations, maintenance and monitoring.
+Begin with a local question and ask whose experiences or evidence are missing. Discuss displacement without stigmatizing people or inferring infection from mobility. Frame HIV/TB in terms of continuity of care; use no patient-identifiable data or invented clinical predictions. Synthetic companion clinics are not actual facilities or PEPFAR portfolios.
 
-Use the table and Book outputs when WebGL, network capacity or visual access is limited. The flashcard and multi-select feedback in the explorer provide a short reasoning check. Have learners download local work before closing a browser session.
+Original figures/text/code retain their existing rights and are outside the repository's blanket original-content licenses. Keep citations and notices when teaching from the archive; source ODbL-1.0 does not license every figure. Download browser-local work before ending a session. Reading the Book requires no Python kernel.

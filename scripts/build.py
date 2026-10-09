@@ -32,6 +32,8 @@ def main():
     env['PYTHONUTF8']='1'
     run([sys.executable,'scripts/prepare_data.py'],env=env)
     run([sys.executable,'scripts/make_projects.py'],env=env)
+    run([sys.executable,'scripts/import_legacy.py'],env=env)
+    run([sys.executable,'scripts/prepare_legacy_book.py'],env=env)
     if not args.skip_notebooks:run([sys.executable,'scripts/check_notebooks.py'],env=env)
     book=ROOT/'book';shutil.copytree(ROOT/'content/notebooks',book/'notebooks',dirs_exist_ok=True)
     # Strip only execution paths from tracebacks? None: failed notebook execution aborts above.
@@ -45,6 +47,7 @@ def main():
     shutil.copytree(ROOT/'content/data',site/'data',dirs_exist_ok=True)
     shutil.copytree(ROOT/'content/projects',site/'projects',dirs_exist_ok=True)
     shutil.copytree(book/'_build/html',site/'book',dirs_exist_ok=True)
+    shutil.copy2(book/'legacy/reading-manifest.json',site/'legacy-reading-manifest.json')
     run([jupyter,'lite','build','--contents','content','--output-dir',str(site/'lite')],env=env)
     (site/'.nojekyll').write_text('')
     (site/'build-info.json').write_text(json.dumps({'book':'Jupyter Book 2.1.7','base_url':args.base_url,'runtime':'JupyterLite 0.8.6 / jupyterlite-pyodide-kernel 0.8.6','commit':os.getenv('GITHUB_SHA','local'),'data_contract':'observations and synthetic scenarios are separate'},indent=2))

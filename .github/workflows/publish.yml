@@ -24,6 +24,7 @@ jobs:
       - run: node --test tests/test_stac.mjs
       - run: python scripts/build.py
       - run: python scripts/browser_smoke.py
+      - run: python scripts/check_legacy_browser.py
       - run: python scripts/check_evidence.py
       - run: python scripts/check_runtime.py
       - uses: actions/upload-pages-artifact@v3

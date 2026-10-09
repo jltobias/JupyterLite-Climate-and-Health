@@ -5,15 +5,37 @@ project:
   authors:
     - name: James L. Tobias and contributors
   github: https://github.com/jltobias/JupyterLite-Climate-and-Health
-  license: CC-BY-4.0
   bibliography:
     - references.bib
   toc:
     - file: index.md
     - file: start.md
-    - title: Foundations and practice
+    - file: legacy.md
+    - title: Original course — nine core chapters
+      children:
+        - file: legacy/nb00-setup.md
+        - file: legacy/nb01-foundations.md
+        - file: legacy/nb01b-data-sources.md
+        - file: legacy/nb02-data-management.md
+        - file: legacy/nb02b-data-analysis.md
+        - file: legacy/nb03-impact.md
+        - file: legacy/nb04-adaptation.md
+        - file: legacy/nb05-modeling.md
+        - file: legacy/nb06-reflection.md
+    - title: Original topic extensions
+      children:
+        - file: legacy/nbxx-air-pollution.md
+        - file: legacy/nbxx-disasters.md
+    - title: Runnable companion labs — optional
       children:
         - pattern: notebooks/*.ipynb
+    - title: Historical variants
+      children:
+        - file: legacy/nb01-introduction-variant.md
+        - file: legacy/old-nb01.md
+        - file: legacy/old-nb01b.md
+        - file: legacy/old-nb02.md
+        - file: legacy/veryold-nb01.md
     - title: Reference desk
       children:
         - file: data-and-methods.md
@@ -31,7 +53,7 @@ site:
     - title: Explorer
       url: https://jltobias.github.io/JupyterLite-Climate-and-Health/explore/
   actions:
-    - title: Open Python Lab
-      url: https://jltobias.github.io/JupyterLite-Climate-and-Health/lite/lab/index.html?path=notebooks/00_start_here.ipynb
+    - title: Open original course in Lab
+      url: https://jltobias.github.io/JupyterLite-Climate-and-Health/lite/lab/index.html?path=legacy/index.ipynb
   options:
     folders: true

@@ -4,6 +4,7 @@ These licenses apply only to material for which repository contributors hold app
 
 | Material | Terms |
 |---|---|
+| Legacy notebooks, text/code, attachments, third-party figures and resources in `content/legacy/`, including generated Book reading copies | **Excluded from the blanket grants below.** Existing citations, notices and rights remain. [Source LICENSE.txt](content/legacy/LICENSE.txt) is preserved as ODbL-1.0; it does not establish rights to individual figures/text/code. No independent figure reuse clearance is asserted |
 | Original Python/JavaScript/HTML/CSS, tests and build configuration | MIT; complete [license](LICENSE) |
 | Original lesson prose, notebook Markdown and Book text | Creative Commons Attribution 4.0 International; complete [legal code](licenses/CC-BY-4.0.txt). Credit James L. Tobias and contributors, repository/version, link the license and indicate changes |
 | Original synthetic cases, daily series, movement and scenario fixtures | CC0 1.0; complete [legal code](licenses/CC0-1.0.txt). Fictional labels and provenance remain necessary to avoid misleading reuse |
@@ -19,6 +20,6 @@ These licenses apply only to material for which repository contributors hold app
 | Jupyter Book/MyST, JupyterLite, Pyodide, JupyterGIS, Specta and transitive software | Upstream package licenses/notices retained in built distributions; pinned direct build dependencies in requirements files |
 | Copernicus, Digital Earth Africa, Allen Coral Atlas and other catalog links | Each dataset/provider's terms apply; see satellite gateway source metadata. Discovery metadata is not permission to redistribute every asset |
 
-No patient-identifiable source data, real PEPFAR portfolio, original third-party figures or credential files are included. The source notebook collection remains unchanged in its own repository. No endorsement by PEPFAR, CDC, WHO, NASA, NOAA, UNHCR or other institutions is implied.
+No patient-identifiable source datasets, real PEPFAR portfolio datasets or credential files are imported. Supplied historical figures are retained only in the explicitly scoped legacy collection. The source notebook collection remains unchanged in its own repository. No endorsement by PEPFAR, CDC, WHO, NASA, NOAA, UNHCR or other institutions is implied.
 
 The [source registry](web/stac/sources.json) and [Book evidence library](book/evidence-library.md) state rights separately for each linked source, including noncommercial/share-alike restrictions and unknown reuse rights. A link to a public dashboard does not grant permission to redistribute its figures or data.

@@ -16,6 +16,7 @@ playwright-report/
 *.zip
 *.log
 book/notebooks/
+book/legacy/
 book/_build/
 my-climate-health-brief.json
 .jupyterlite.doit.db

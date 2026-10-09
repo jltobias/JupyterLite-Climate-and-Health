@@ -1,6 +1,6 @@
 # Attribution and provenance
 
-**Original curriculum and implementation:** James L. Tobias and contributors, *Climate & Health*, 2026. Source repository: https://github.com/jltobias/JupyterLite-Climate-and-Health . The 2024 Climate Heat Stress notebook collection supplied the educational sequence and many learning questions. Code/prose here are independently rewritten; [migration](book/migration.md) maps every source notebook and its methodological corrections.
+**Original curriculum and implementation:** James L. Tobias and contributors, *Climate & Health*, 2026. Source repository: https://github.com/jltobias/JupyterLite-Climate-and-Health . The 2024 Climate Heat Stress notebook collection supplied the educational sequence and many learning questions. The 14 modern companion labs and application code/prose are independently written; [migration](book/migration.md) maps every source notebook and its methodological corrections.
 
 **Related projects examined:** James L. Tobias and contributors' [JupyterLite Sea-Level-Rise](https://github.com/jltobias/JupyterLite-Sea-Level-Rise) supplied the Book/Lite/dashboard architecture pattern, explicit observed-versus-fictional distinction and service/equity framing. Its README, source audit and helper were inspected; no original poster, actual facilities or flood outputs copied. [DRC Mobility](https://github.com/jltobias/JupyterLite-DRC-Population-Mobility-Border-Mapping) informed portable map stories and movement definitions. [HIVDB Maps](https://github.com/jltobias/JupyterLite-HIVDB-Drug-Resistance-Maps) informed dated snapshot and browser-storage documentation. Those ideas are credited without importing their data or code. STAC gateway reuse is documented with its own source registry.
 
@@ -12,7 +12,7 @@
 
 **Conceptual illustration:** Built-in OpenAI image generation, original commissioned scene; prompt and generation provenance in `assets/splash-provenance.md`. Fictional people and places. Not a photograph, observed climate event or agency endorsement.
 
-**Methods and contextual references:** [Book reference desk](book/references.md) links WHO, IPCC, NOAA CRW, UNHCR, IDMC, IUCN, CDC India and environmental data providers. NOAA DHW definitions are acknowledged; the teaching SST/HotSpot series is original synthetic data. No linked publisher figure is redistributed.
+**Methods and contextual references:** [Book reference desk](book/references.md) links WHO, IPCC, NOAA CRW, UNHCR, IDMC, IUCN, CDC India and environmental data providers. NOAA DHW definitions are acknowledged; the teaching SST/HotSpot series is original synthetic data. Modern companion lessons link publisher figures rather than redistributing them. The separate historical collection preserves supplied figures as described below.
 
 **Visualization software:** Plotly.js 3.1.0, Copyright Plotly, Inc., MIT. Full license in `licenses/plotly-MIT.txt`; bundled unchanged from https://cdn.plot.ly/plotly-3.1.0.min.js . Runtime software retains upstream notices.
 
@@ -27,3 +27,7 @@
 **Citizen science:** CoralWatch (2026), Random Survey dataset, public survey `bd39e449-038f-4d45-ab6d-b56922a6f532`, Abu Sawatyr, Egypt, accessed 2026-10-09. CC BY 4.0. Changes: reduced to 20 coral records, numeric chart scores extracted, personal fields/photos/precise coordinates omitted. Source attribution and verification limitations are preserved in `content/data/coralwatch_random_survey_20.metadata.json`.
 
 **Reading and discovery sources:** Every user-suggested provider has a dated card in the [evidence library](book/evidence-library.md), generated from `web/stac/sources.json`. Atlas figures, proprietary layers and external dashboard datasets are linked rather than included unless explicitly listed above.
+
+**Original 2024 course:** All 16 explicitly supplied checkpoint notebooks from `2024-Climate-Heat-Stress/.ipynb_checkpoints`, including the extensionless NB01B, are retained in `content/legacy/`. Nine core chapters and two extensions lead the course; five historical variants remain accessible. Original cells, attachments, citations and referenced reading assets remain, except documented credential redactions (if needed), portable Markdown image paths, and cleared execution/widget state. [Manifest](content/legacy/manifest.json) records source/target hashes, asset citation contexts and transformations. [Archive](book/legacy.md) provides every notebook and support file. Generated Book reading copies record their presentation transformations separately. The original source folder is unchanged.
+
+Legacy notebooks, their text/code, attachments, third-party figures and supporting resources are excluded from this repository's blanket MIT, CC BY 4.0 and CC0 grants for original material. Existing notices, citations and rights remain. The source LICENSE.txt is preserved as ODbL-1.0; it does not establish a license for individual figures, text or code. Figure reuse rights have not been independently established.

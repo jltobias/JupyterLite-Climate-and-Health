@@ -5,3 +5,11 @@ content/data/healthsites_ODbL-1.0.txt -whitespace
 assets/*.png binary
 web/vendor/** -text -whitespace
 web/stac/vendor/** -text -whitespace
+# Preserve byte-identical legacy support files, resources and source notices.
+content/legacy/images/** binary
+content/legacy/resources/** -text -whitespace
+content/legacy/provenance-checkpoint.json -text whitespace=cr-at-eol
+content/legacy/provenance-checkpoint.png binary
+content/legacy/temperature_above_35_map-checkpoint.html -text -whitespace
+content/legacy/LICENSE.txt -text -whitespace
+content/legacy/environment.yml -text whitespace=cr-at-eol
