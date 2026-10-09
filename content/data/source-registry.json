@@ -1,0 +1,740 @@
+{
+  "checked_on": "2026-10-09",
+  "scope": "Curated discovery library. Access and licenses apply to the named product, never automatically to every provider asset. No endorsement implied.",
+  "sources": [
+    {
+      "id": "gdelt",
+      "title": "The GDELT Project",
+      "themes": [
+        "Conflict context",
+        "Disease",
+        "Storytelling",
+        "Climate literacy"
+      ],
+      "kind": "News-derived metadata gateway",
+      "description": "Machine-extracted events, mentions, themes, locations and tone support media-literacy exercises around climate and health reporting.",
+      "access": "Public bulk metadata, BigQuery and documented DOC/GEO APIs. Search availability can be intermittent; no live media result is required by core lessons.",
+      "license": "GDELT's own terms permit dataset reuse and redistribution with citation and a project link. These rights do not license publishers' articles, images or video.",
+      "caveat": "News mentions are not verified event counts, disease incidence or causation. Geocoding, language, outlet coverage and duplicated reporting introduce bias; sparse coverage does not mean low need.",
+      "citation": "The GDELT Project, named Event/Mentions/GKG or API product, extraction query, time window, release and access date; link original reports when checking claims.",
+      "links": {
+        "User-suggested project": "https://gdeltproject.org/",
+        "Data and documentation": "https://gdeltproject.org/data.html",
+        "Terms": "https://gdeltproject.org/about.html#termsofuse",
+        "GEO API": "https://blog.gdeltproject.org/gdelt-geo-2-0-api-debuts/"
+      }
+    },
+    {
+      "id": "povertymaps_relative_wealth",
+      "title": "PovertyMaps.net / Meta Relative Wealth Index",
+      "themes": [
+        "Equity",
+        "Livelihoods",
+        "Care access"
+      ],
+      "kind": "Modeled relative-wealth gateway",
+      "description": "Berkeley/Meta microestimates describe relative living standards within countries at approximately 2.4 km resolution, with uncertainty.",
+      "access": "Country CSVs via HDX. The user-suggested PovertyMaps.net beta viewer currently redirects to an HTTP IP address; use the HTTPS HDX gateway for source data.",
+      "license": "Upstream HDX metadata specifies CC BY-NC 4.0. Preserve authors, license, changes and uncertainty; do not infer rights from a differently licensed derivative catalog.",
+      "caveat": "Relative wealth is not a dollar poverty threshold or household/clinic status, and raw scores are not directly comparable across countries. Paper coverage and downloadable release coverage differ; metadata update dates are not observation years.",
+      "citation": "Chi, G., Fang, H., Chatterjee, S., and Blumenstock, J.E. (2022). Microestimates of wealth for all low- and middle-income countries. PNAS 119(3), e2113658119. doi:10.1073/pnas.2113658119; cite selected HDX release.",
+      "links": {
+        "HTTPS data gateway": "https://data.humdata.org/dataset/relative-wealth-index",
+        "User-suggested viewer (redirects to HTTP)": "https://www.povertymaps.net/",
+        "Primary metadata and license": "https://data.humdata.org/api/3/action/package_show?id=relative-wealth-index",
+        "Research": "https://doi.org/10.1073/pnas.2113658119"
+      }
+    },
+    {
+      "id": "gapminder",
+      "title": "Gapminder: climate gaps and disparities",
+      "themes": [
+        "Equity",
+        "Climate literacy"
+      ],
+      "kind": "Interactive indicator and household-context gateway",
+      "description": "Explore country indicators in Gapminder Tools and household examples in Dollar Street. Compare emissions, income and population with aligned years and denominators.",
+      "access": "Public tools and indicator downloads; trace each indicator to its original source.",
+      "license": "Covered Gapminder free materials and Dollar Street images: CC BY 4.0 with supplied credits. Underlying indicator and software licenses vary; do not infer blanket rights.",
+      "caveat": "Interpolated or extrapolated series are not all direct observations. Country means hide inequality; Dollar Street households are examples, not prevalence estimates. PPP-adjusted household consumption differs from salary or GDP.",
+      "citation": "Gapminder, selected tool/indicator, original provider, release and access date. Adapted material credit: Based on free material from GAPMINDER.ORG, CC-BY LICENSE.",
+      "links": {
+        "Provider": "https://www.gapminder.org/",
+        "Tools": "https://www.gapminder.org/tools/",
+        "Data": "https://www.gapminder.org/data/",
+        "Dollar Street": "https://www.gapminder.org/dollar-street",
+        "Material terms": "https://www.gapminder.org/free-material/",
+        "Gap filling": "https://www.gapminder.org/sources/data-crunching-principles/"
+      }
+    },
+    {
+      "id": "global_nature_watch",
+      "title": "Global Nature Watch / Global Forest Watch",
+      "themes": [
+        "Ecosystems",
+        "Adaptation",
+        "Earth observation"
+      ],
+      "kind": "Forest and ecosystem monitoring gateway",
+      "description": "WRI renamed Global Forest Watch to Global Nature Watch in September 2026; existing forest maps and dashboards continue within broader ecosystem monitoring.",
+      "access": "Public maps, layer metadata and downloads. Some analysis endpoints require API keys or OAuth; large rasters need an appropriate workflow.",
+      "license": "Named UMD tree-cover-loss and integrated-alert layers: CC BY 4.0. Other layer and platform rights vary. Tree-cover credit: Source: Hansen/UMD/Google/USGS/NASA.",
+      "caveat": "Tree-cover loss can reflect harvest, fire or natural disturbance, not necessarily deforestation. Alerts are investigation leads, not unbiased regional trend/area estimates. Tree gain can include plantations.",
+      "citation": "Hansen et al. (2013), doi:10.1126/science.1244693; tree-cover loss v1.13 through 2025, accessed 2026-10-09. Integrated alerts: UMD/GLAD and WUR, accessed through Global Nature Watch; retain exact version.",
+      "links": {
+        "User-suggested platform": "https://globalnaturewatch.org/",
+        "Rename announcement": "https://www.wri.org/news/release-global-forest-watch-becomes-global-nature-watch-expanding-cover-more-land-ecosystems",
+        "Tree-cover metadata": "https://data-api.globalforestwatch.org/dataset/umd_tree_cover_loss",
+        "Alert metadata": "https://data-api.globalforestwatch.org/dataset/gfw_integrated_alerts"
+      }
+    },
+    {
+      "id": "global_nature_watch_horizon",
+      "title": "Global Nature Watch Horizon",
+      "themes": [
+        "Ecosystems",
+        "Climate literacy"
+      ],
+      "kind": "AI-assisted discovery preview",
+      "description": "A separate interface for exploring GNW and Land & Carbon Lab evidence through natural-language questions.",
+      "access": "External preview; no public integration API verified. Follow its source references back to the underlying data.",
+      "license": "Underlying dataset terms remain separate from interface and generated-summary rights. No platform output or imagery republished here.",
+      "caveat": "AI summaries can be incomplete or incorrect; verify figures, dates, place definitions and citations. A generated answer is not a validated local environmental assessment.",
+      "citation": "Global Nature Watch Horizon / WRI, underlying named dataset and exact cited release; record access date and any generated interpretation separately.",
+      "links": {
+        "Horizon": "https://horizon.globalnaturewatch.org/",
+        "Underlying platform": "https://globalnaturewatch.org/"
+      }
+    },
+    {
+      "id": "campaign_ipcc_commentary",
+      "title": "An atlas of human suffering — public communication",
+      "themes": [
+        "Equity",
+        "Climate literacy"
+      ],
+      "kind": "Historical advocacy commentary",
+      "description": "A Campaign against Climate Change response to the 2022 IPCC impacts assessment, useful for tracing public claims back to assessed evidence.",
+      "access": "Public article; linked reading only.",
+      "license": "No open reuse license verified. Do not copy the article's separately credited photograph.",
+      "caveat": "This is a secondary advocacy article, not an official IPCC atlas, dataset or independent scientific assessment.",
+      "citation": "Claire (2022-03-01). An atlas of human suffering: the latest IPCC report. Campaign against Climate Change.",
+      "links": {
+        "User-suggested article": "https://www.campaigncc.org/ipcc_atlas_of_human_suffering",
+        "Primary IPCC assessment": "https://www.ipcc.ch/report/ar6/wg2/"
+      }
+    },
+    {
+      "id": "ipcc_ar6_wgii",
+      "title": "IPCC AR6: Impacts, Adaptation and Vulnerability",
+      "themes": [
+        "Climate literacy",
+        "Adaptation",
+        "Disease",
+        "Equity"
+      ],
+      "kind": "Primary scientific assessment",
+      "description": "The 2022 Working Group II assessment provides the scientific context for climate impacts, adaptation options and vulnerability.",
+      "access": "Public report and chapter downloads; use official citations and chapter-specific confidence statements.",
+      "license": "IPCC/Cambridge publication rights and figure credits apply; this project links the report and writes its own synthesis.",
+      "caveat": "Preserve scenario, period, geography and assessed confidence. Global findings do not independently validate a local clinic model or attribute an individual disaster.",
+      "citation": "IPCC (2022). Climate Change 2022: Impacts, Adaptation and Vulnerability. Cambridge University Press. doi:10.1017/9781009325844.",
+      "links": {
+        "Report": "https://www.ipcc.ch/report/ar6/wg2/",
+        "Official citation": "https://www.ipcc.ch/report/ar6/wg2/about/how-to-cite-this-report/"
+      }
+    },
+    {
+      "id": "world_atlas_desertification",
+      "title": "JRC World Atlas of Desertification",
+      "themes": [
+        "Land degradation",
+        "Food",
+        "Water",
+        "Livelihoods"
+      ],
+      "kind": "Historical atlas and convergence-of-evidence gateway",
+      "description": "Third-edition WAD3 maps overlapping land, water and socioeconomic concerns as starting points for local investigation.",
+      "access": "Public atlas, data catalog, convergence explorer and country reports; some legacy interactive endpoints can be intermittent.",
+      "license": "© European Union 2018; WAD3-JRC material reusable with source acknowledgement and preserved meaning. Third-party material retains separate rights. Named convergence dataset separately states CC BY 4.0.",
+      "caveat": "Convergence of issues is not measured land degradation, a current drought forecast or a health-risk score. Indicators span different historical periods and need local validation.",
+      "citation": "Cherlet, M., Hutchinson, C., Reynolds, J., Hill, J., Sommer, S., and von Maltitz, G. (eds.) (2018). World Atlas of Desertification, 3rd ed. Publications Office of the European Union. doi:10.2760/06292.",
+      "links": {
+        "User-suggested atlas": "https://wad.jrc.ec.europa.eu/",
+        "Data catalog": "https://wad.jrc.ec.europa.eu/geoportal",
+        "Convergence explorer": "https://wad.jrc.ec.europa.eu/convergenceofevidence",
+        "Rights": "https://wad.jrc.ec.europa.eu/about_atlas",
+        "Publication": "https://publications.jrc.ec.europa.eu/repository/handle/JRC111155"
+      }
+    },
+    {
+      "id": "uw_refugee_atlas",
+      "title": "University of Washington Global Refugee Atlas",
+      "themes": [
+        "Mobility",
+        "Equity",
+        "Storytelling"
+      ],
+      "kind": "Historical humanistic-GIS reference",
+      "description": "Origin–host connections, journey narratives, camp imagery and contextual indicators demonstrate multiple ways to communicate refugee experiences.",
+      "access": "Public atlas and source inventory; obtain analysis data from the original providers.",
+      "license": "No project-wide reuse license verified. Open-source dependencies do not license all photographs, narratives, geometry or underlying data. Link only.",
+      "caveat": "Its page titled Flow explains end-2018 refugee population stocks. Connections are not observed routes or annual movements and do not establish climate causation.",
+      "citation": "Zhao, B., Van Den Hoek, J., Alix-Garcia, J., Svevo, G., Baldrica-Franklin, G., and Katz, G. (2019). Global Refugee Atlas. University of Washington Humanistic GIS project.",
+      "links": {
+        "User-suggested atlas": "https://hgis.uw.edu/refugee/",
+        "Origins and hosts": "https://hgis.uw.edu/refugee/origin.html",
+        "Journeys": "https://hgis.uw.edu/refugee/journey_menu.html",
+        "Sources": "https://hgis.uw.edu/refugee/sources.html"
+      }
+    },
+    {
+      "id": "unhcr_displacement",
+      "title": "UNHCR forcibly displaced and stateless population maps",
+      "themes": [
+        "Mobility",
+        "Equity",
+        "Care access"
+      ],
+      "kind": "Official population-statistics gateway",
+      "description": "Compare populations by origin, asylum and defined status; pair maps with official stock-versus-flow guidance.",
+      "access": "Public annex and data portal. Preserve the selected reference date; the inspected annex describes end-2025 data. Automated access can be rate limited.",
+      "license": "Refugee Data Portal datasets: CC BY 4.0 unless otherwise indicated; website design, software and logos excluded. Preserve original providers and disclose changes.",
+      "caveat": "Refugees, asylum-seekers, IDPs, returnees and stateless people have distinct definitions and can overlap. Stocks are not annual arrivals. These data alone cannot identify climate-attributable displacement.",
+      "citation": "UNHCR, Maps of forcibly displaced and stateless people, selected population group and reference date; underlying Refugee Data Portal release, accessed 2026-10-09.",
+      "links": {
+        "User-suggested maps": "https://www.unhcr.org/refugee-statistics/insights/annexes/forcibly-displaced-maps.html",
+        "Common mistakes": "https://www.unhcr.org/refugee-statistics/insights/explainers/common-mistakes-forcibly-displaced-data.html",
+        "Flow data": "https://www.unhcr.org/refugee-statistics/insights/explainers/forcibly-displaced-flow-data.html",
+        "Terms": "https://refugeedata.unhcr.org/en/terms-and-conditions-of-use/"
+      }
+    },
+    {
+      "id": "atlas_informality",
+      "title": "Atlas of Informality",
+      "themes": [
+        "Urban health",
+        "Equity",
+        "Care access",
+        "Storytelling"
+      ],
+      "kind": "Public neighborhood-case map and methods",
+      "description": "Selected informal-neighborhood boundaries at two historical dates support discussion of settlement change, heat, flooding and service access.",
+      "access": "Public ArcGIS map and mapping protocol; no geometry or photographs copied into this repository.",
+      "license": "Dataset license unspecified in inspected ArcGIS metadata. The linked 2020 article is CC BY 4.0; this does not establish rights for separate map geometry or images.",
+      "caveat": "Curated cases are not a complete settlement inventory. Boundary growth does not independently measure population, displacement, exposure or health-service access.",
+      "citation": "Samper, J., Shelby, J.A., and Behary, D. (2020). The Paradox of Informal Settlements Revealed in an ATLAS of Informality. Sustainability 12(22), 9510. doi:10.3390/su12229510.",
+      "links": {
+        "User-suggested atlas": "https://www.atlasofinformality.com/",
+        "Protocol": "https://www.atlasofinformality.com/protocol",
+        "Map": "https://ucboulder.maps.arcgis.com/apps/mapviewer/index.html?webmap=004efe9b9a2646b3b66625092771cf1e",
+        "Article": "https://doi.org/10.3390/su12229510"
+      }
+    },
+    {
+      "id": "vulnerability_atlas",
+      "title": "Atlas of Vulnerability: Developing Countries and the Pandemic",
+      "themes": [
+        "Equity",
+        "Care access",
+        "Climate literacy"
+      ],
+      "kind": "Regional indicator-dashboard reference",
+      "description": "Jubilee USA Network and LATINDADD compare economic, social, health and environmental conditions across 26 Latin American and Caribbean countries; database updated September 2024.",
+      "access": "Public indicator comparisons and exports; versions and indicator years differ.",
+      "license": "No explicit open reuse license verified. Download availability does not grant redistribution permission; check original indicator terms.",
+      "caveat": "This is a regional indicator dashboard, not a global climate score. Latest-available values can refer to different years; align units, dates, denominators and missingness before comparison.",
+      "citation": "Jubilee USA Network and LATINDADD. Atlas of Vulnerability: Developing Countries and the Pandemic. Database updated September 2024; accessed 2026-10-09.",
+      "links": {
+        "User-suggested atlas": "https://vulnerabilityatlas.org/",
+        "Instructions": "https://vulnerabilityatlas.org/using-the-map?lang=en"
+      }
+    },
+    {
+      "id": "africa_ccvi",
+      "title": "Surgo Africa COVID-19 Community Vulnerability Index",
+      "themes": [
+        "Disease",
+        "Equity",
+        "Care access"
+      ],
+      "kind": "Historical pandemic-planning index",
+      "description": "The 2021 release compares seven vulnerability themes across 756 admin-1 regions in 48 countries.",
+      "access": "Public dashboard and archived Zenodo dataset; cross-country scores cover 36 countries because source differences restrict comparability.",
+      "license": "Archived dataset: CC BY-NC 4.0; dashboard content separately reserves rights. No index data copied here.",
+      "caveat": "Relative rankings depend on comparison scope; they are not infection probabilities, current burden or individual risk. Facility-per-capita indicators do not identify PEPFAR-supported facilities.",
+      "citation": "Mishra, A., et al. (2021). Africa COVID-19 Community Vulnerability Index (CCVI). Zenodo, published 28 April 2021. doi:10.5281/zenodo.4725492.",
+      "links": {
+        "User-suggested dashboard": "https://precisionforcovid.org/africa",
+        "Dataset": "https://doi.org/10.5281/zenodo.4725492",
+        "Methods": "https://covid-static-assets.s3.amazonaws.com/Africa+CCVI+methodology.pdf"
+      }
+    },
+    {
+      "id": "world_bank_gsap",
+      "title": "World Bank Global Subnational Poverty Atlas",
+      "themes": [
+        "Equity",
+        "Livelihoods",
+        "Care access"
+      ],
+      "kind": "Subnational socioeconomic-data gateway",
+      "description": "GSAP supplies survey-based poverty estimates aligned to common years, principally at admin-1 scale. Current catalog identifies the AM26 / September 2026 vintage.",
+      "access": "Public map, downloadable tables and polygons. The linked map selects a 2023 estimate, not a 2023 PPP base.",
+      "license": "CC BY 4.0 plus World Bank published additional terms; preserve release, original sources and transformations. No household-microdata access is implied.",
+      "caveat": "The $3.00 threshold is per person per day in 2021 PPP international dollars, not nominal USD. Area poverty rates do not identify individual poverty, clinic vulnerability or climate-caused displacement.",
+      "citation": "World Bank (2026). Global Subnational Poverty Atlas, AM26/September 2026 vintage; $3.00/day, 2021 PPP; reference year 2023. Accessed 2026-10-09.",
+      "links": {
+        "User-suggested map": "https://pipmaps.worldbank.org/en/data/datatopics/poverty-portal/poverty-geospatial?dataset=PovertyRate3.00-gsap&zoomLevel=3&lat=19.53676432208408&lng=15.02343750000001&year=2023",
+        "Data catalog": "https://datacatalog.worldbank.org/search/dataset/0042041/global-subnational-poverty-atlas-gsap",
+        "Terms": "https://datacatalog.worldbank.org/public-licenses?fragment=cc"
+      }
+    },
+    {
+      "id": "gem_economic_vulnerability",
+      "title": "GEM Global Economic Vulnerability Map",
+      "themes": [
+        "Equity",
+        "Climate literacy"
+      ],
+      "kind": "Hazard-specific comparison index",
+      "description": "Version 2020.1 combines country-level economic exposure and resilience indicators in an earthquake-oriented framework covering 136 countries.",
+      "access": "Public product description and OpenQuake viewer; linked comparison only.",
+      "license": "CC BY-NC-SA 4.0. This license remains separate from the repository's original materials.",
+      "caveat": "An earthquake economic-vulnerability index is not a climate-risk forecast or facility assessment. The source page's PDF/citation text refers inconsistently to the social-vulnerability product; use the economic title, version and DOI.",
+      "citation": "Burton, C., and Toquica, M. (2020). Global Economic Vulnerability Map, version 2020.1. doi:10.13117/GEM-ECONOMIC-VULNERABILITY-MAP.",
+      "links": {
+        "User-suggested product": "https://www.globalquakemodel.org/gem-maps/global-economic-vulnerability-map",
+        "Viewer": "https://maps.openquake.org/map/sv-global-economic-vulnerability/",
+        "Economic-map DOI": "https://doi.org/10.13117/GEM-ECONOMIC-VULNERABILITY-MAP"
+      }
+    },
+    {
+      "id": "nasa_gistemp",
+      "title": "NASA GISTEMP v4",
+      "themes": [
+        "Heat",
+        "Climate literacy"
+      ],
+      "kind": "Bundled observations",
+      "description": "Global annual land–ocean temperature anomalies, with raw source snapshot and provenance.",
+      "access": "Packaged CSV; public NASA tables.",
+      "license": "NASA scientific data; cite GISTEMP Team and the dataset methods paper.",
+      "caveat": "Anomaly relative to 1951–1980; global average is not a clinic temperature or personal heat exposure.",
+      "citation": "GISTEMP Team (2026), GISS Surface Temperature Analysis v4; Lenssen et al. (2024), doi:10.1029/2023JD040179. Accessed 2026-10-09.",
+      "links": {
+        "Data": "https://data.giss.nasa.gov/gistemp/",
+        "Methods": "https://doi.org/10.1029/2023JD040179"
+      }
+    },
+    {
+      "id": "healthsites",
+      "title": "Healthsites.io / OpenStreetMap",
+      "themes": [
+        "Care access",
+        "Facilities"
+      ],
+      "kind": "Bundled archived facility locations",
+      "description": "155 unique OSM point features selected from the original repository's Healthsites archive across seven teaching contexts, including Mumbai.",
+      "access": "Local GeoJSON and provenance; Healthsites services for fresh data.",
+      "license": "Open Database License 1.0. © OpenStreetMap contributors, via Healthsites.io. Derivative database obligations apply.",
+      "caveat": "Original extraction date unknown. Selected point features are incomplete; location does not establish current operation, service availability or PEPFAR funding.",
+      "citation": "Healthsites.io / OpenStreetMap contributors. Selected archived World-node features from 2024-Climate-Heat-Stress; processed 2026-10-09. Original OSM node IDs retained.",
+      "links": {
+        "Provider": "https://healthsites.io/",
+        "Attribution": "https://www.openstreetmap.org/copyright",
+        "License": "https://opendatacommons.org/licenses/odbl/1-0/"
+      }
+    },
+    {
+      "id": "copernicus",
+      "title": "Copernicus Data Space STAC",
+      "themes": [
+        "Earth observation",
+        "Coasts",
+        "Heat"
+      ],
+      "kind": "Live metadata + packaged scenes",
+      "description": "Search bounded Sentinel-2 L2A scene footprints and asset metadata; Mumbai example included.",
+      "access": "Public metadata search; asset downloads can have separate authentication requirements.",
+      "license": "Copernicus Sentinel Data Legal Notice; collection declares license identifier 'other'. Preserve acquisition and source credit.",
+      "caveat": "Reflectance is not air temperature. A footprint does not show hazard extent; cloud fraction for a whole scene does not describe a specific clinic pixel.",
+      "citation": "Copernicus Sentinel-2 data, ESA / European Commission, accessed via Copernicus Data Space Ecosystem; exact scene identifiers and access date in export.",
+      "links": {
+        "User-suggested browser": "https://browser.stac.dataspace.copernicus.eu/",
+        "API documentation": "https://documentation.dataspace.copernicus.eu/APIs/STAC.html",
+        "Legal notice": "https://sentinels.copernicus.eu/documents/247904/690755/Sentinel_Data_Legal_Notice"
+      }
+    },
+    {
+      "id": "digital_earth_africa",
+      "title": "Digital Earth Africa",
+      "themes": [
+        "Earth observation",
+        "Water",
+        "Adaptation"
+      ],
+      "kind": "Live metadata + packaged annual-water items",
+      "description": "WOfS annual water observations and Sentinel-2 GeoMAD metadata; Beira WOfS example included.",
+      "access": "Public STAC metadata and cloud-hosted assets; advanced raster analysis can use the DEA Sandbox.",
+      "license": "Named WOfS and GeoMAD products: CC BY 4.0, with product acknowledgements including modified Copernicus data for GeoMAD.",
+      "caveat": "Wet/clear observation frequency is not flood probability, depth or water quality. Preserve valid-observation counts, clouds, acquisition period and CRS.",
+      "citation": "Digital Earth Africa Water Observations from Space annual summary, 2022, accessed 2026-10-09; exact item identifiers in snapshot. Cite the selected product specifications.",
+      "links": {
+        "Catalog": "https://explorer.digitalearth.africa/",
+        "WOfS specifications": "https://docs.digitalearthafrica.org/en/latest/data_specs/Landsat_WOfS_specs.html",
+        "GeoMAD specifications": "https://docs.digitalearthafrica.org/en/latest/data_specs/GeoMAD_specs.html"
+      }
+    },
+    {
+      "id": "allen_coral_atlas",
+      "title": "Allen Coral Atlas",
+      "themes": [
+        "Reefs",
+        "Earth observation",
+        "Coasts"
+      ],
+      "kind": "Bundled bounded habitat extract",
+      "description": "Eight actual benthic habitat polygons near Mombasa, served from the provider's public WFS. They complement the synthetic thermal-stress lesson.",
+      "access": "Public WFS/WMS; some downloads require registration. No global Atlas dataset or Planet mosaic is republished here.",
+      "license": "Mapped habitat products: CC BY 4.0; separate Planet imagery terms include CC BY-NC-SA 4.0. Consult provider conditions for global redistribution.",
+      "caveat": "Habitat classification is not observed bleaching, current ecological condition or fish production. This first-page extract is not representative coverage.",
+      "citation": "Allen Coral Atlas (2022), Imagery, maps and monitoring of the world's tropical coral reefs. doi:10.5281/zenodo.3833242. Allen Coral Atlas Partnership / Arizona State University. Bounded extract accessed 2026-10-09.",
+      "links": {
+        "Atlas": "https://allencoralatlas.org/",
+        "Resources and rights": "https://allencoralatlas.org/resources/",
+        "Citation": "https://doi.org/10.5281/zenodo.3833242"
+      }
+    },
+    {
+      "id": "noaa_coral_reef_watch",
+      "title": "NOAA Coral Reef Watch",
+      "themes": [
+        "Reefs",
+        "Heat"
+      ],
+      "kind": "Methods and operational-data gateway",
+      "description": "Satellite sea-surface temperature and thermal-stress products; methodology informs the course's synthetic 84-day Degree Heating Week exercise.",
+      "access": "Public product and methodology pages; no operational NOAA reef observations are bundled in the DHW exercise.",
+      "license": "NOAA public-domain data, with NOAA Coral Reef Watch attribution and product-specific citation.",
+      "caveat": "Thermal stress indicates exposure, not directly observed bleaching. Do not substitute CoralWatch chart scores for satellite DHW.",
+      "citation": "NOAA Coral Reef Watch: cite exact product, version, dates and recommended publication from its citation guidance.",
+      "links": {
+        "Methods": "https://coralreefwatch.noaa.gov/product/5km/methodology.php",
+        "Citation guidance": "https://coralreefwatch.noaa.gov/satellite/docs/recommendations_crw_citation.php"
+      }
+    },
+    {
+      "id": "coralwatch",
+      "title": "CoralWatch citizen science",
+      "themes": [
+        "Reefs",
+        "Citizen science"
+      ],
+      "kind": "Bundled real field observations",
+      "description": "Twenty coral colour observations from one public Random Survey at Abu Sawatyr, Red Sea, Egypt. Personal fields and precise coordinates omitted.",
+      "access": "Packaged CSV plus public BioCollect survey; published eventDate retained verbatim.",
+      "license": "This Random Survey explicitly states CC BY 4.0. Other survey types can use CC BY-NC 2.5: never generalize this license to the entire portal.",
+      "caveat": "Scores are a descriptive chart index, not percent bleaching, coral cover or a representative reef estimate. Schema checks do not independently verify field observations.",
+      "citation": "CoralWatch (2026), Random Survey bd39e449-038f-4d45-ab6d-b56922a6f532, Abu Sawatyr, Egypt. 20-observation reduced extract, accessed 2026-10-09. Changes documented in packaged metadata.",
+      "links": {
+        "Provider": "https://coralwatch.org/",
+        "Survey": "https://biocollect.ala.org.au/coralwatch/bioActivity/index/bd39e449-038f-4d45-ab6d-b56922a6f532",
+        "Methods": "https://coralwatch.org/faqs/"
+      }
+    },
+    {
+      "id": "climate_central",
+      "title": "Climate Central coastal tools",
+      "themes": [
+        "Coasts",
+        "Sea level",
+        "Care access"
+      ],
+      "kind": "External tool / licensed-data gateway",
+      "description": "Coastal Risk Finder, CoastalDEM, coastal flood layers and portfolio screening support advanced coastal questions.",
+      "access": "Use public tools; data packages and commercial products require the applicable negotiated access or license.",
+      "license": "Product-specific Climate Central terms. No CoastalDEM raster, proprietary flood layer or restricted portfolio dataset is bundled.",
+      "caveat": "Elevation threshold maps require datum, connectivity, uncertainty, defenses and time-horizon checks before inferring inundation or facility disruption.",
+      "citation": "Climate Central: cite selected tool or product, model version, scenario, horizon and access date.",
+      "links": {
+        "Provider": "https://www.climatecentral.org/",
+        "Coastal Risk Finder": "https://coastal.climatecentral.org/",
+        "CoastalDEM": "https://www.climatecentral.org/climate-services/coastaldem",
+        "Terms": "https://www.climatecentral.org/what-we-do/legal"
+      }
+    },
+    {
+      "id": "alphaearth_ai",
+      "title": "AlphaEarth.ai — carbon-market platform",
+      "themes": [
+        "Adaptation",
+        "Climate literacy"
+      ],
+      "kind": "External commercial platform",
+      "description": "The user-suggested alphaearth.ai domain is a carbon-market intelligence platform operated by Crelocks LLC.",
+      "access": "Subscription and platform-specific access.",
+      "license": "Provider terms; no redistribution permission inferred and no platform dataset copied.",
+      "caveat": "This domain is distinct from Google / Google DeepMind's AlphaEarth Foundations satellite embeddings.",
+      "citation": "AlphaEarth.ai, Crelocks LLC. Platform and terms accessed 2026-10-09.",
+      "links": {
+        "User-suggested platform": "https://alphaearth.ai/",
+        "Terms": "https://alphaearth.ai/terms"
+      }
+    },
+    {
+      "id": "alphaearth_foundations",
+      "title": "Google AlphaEarth Foundations",
+      "themes": [
+        "Earth observation",
+        "Adaptation"
+      ],
+      "kind": "Advanced open-data gateway",
+      "description": "Annual 10 m satellite embeddings with 64 dimensions for environmental pattern analysis, available through Earth Engine and a public cloud bucket.",
+      "access": "Earth Engine account or documented public GCS access; large tiles need a suitable processing environment.",
+      "license": "CC BY 4.0. Required credit: The AlphaEarth Foundations Satellite Embedding dataset is produced by Google and Google DeepMind.",
+      "caveat": "Embedding dimensions are not temperature, disease, carbon or habitat measurements. Validate any downstream classifier; preserve exact tile and year availability.",
+      "citation": "Google and Google DeepMind, Satellite Embedding V1 Annual; Brown et al. (2025), doi:10.48550/arXiv.2507.22291. Cite the exact release and tiles used.",
+      "links": {
+        "Dataset": "https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_SATELLITE_EMBEDDING_V1_ANNUAL",
+        "Public cloud guide": "https://developers.google.com/earth-engine/guides/aef_on_gcs_readme"
+      }
+    },
+    {
+      "id": "global_fishing_watch",
+      "title": "Global Fishing Watch",
+      "themes": [
+        "Food",
+        "Reefs",
+        "Livelihoods"
+      ],
+      "kind": "External map / authenticated API",
+      "description": "Explore apparent fishing effort and maritime activity as livelihood and ecosystem context.",
+      "access": "Public map; API requires a personal bearer token. No API token is embedded in the site.",
+      "license": "Public API terms include CC BY-NC 4.0 plus dataset-specific conditions. Required attribution: Powered by Global Fishing Watch.",
+      "caveat": "Modeled apparent fishing hours are not catch, illegal activity or dietary intake. AIS coverage favors larger vessels and misses much artisanal activity.",
+      "citation": "Global Fishing Watch, exact dataset/version and period; cite API terms and methods. Powered by Global Fishing Watch.",
+      "links": {
+        "Map": "https://globalfishingwatch.org/map/",
+        "Datasets": "https://globalfishingwatch.org/datasets-and-code/",
+        "API terms": "https://api-doc.globalfishingwatch.org/our-apis/documentation/docs/license-rate-limits"
+      }
+    },
+    {
+      "id": "fews_net",
+      "title": "FEWS NET food-security outlooks",
+      "themes": [
+        "Food",
+        "Livelihoods",
+        "Care access"
+      ],
+      "kind": "External assessment-data gateway",
+      "description": "Acute food insecurity maps and outlooks provide regional livelihood and nutrition context.",
+      "access": "Public map and geographic-data downloads; retain issue date, target period and assessed versus projected status.",
+      "license": "Dataset-specific FEWS NET use and attribution policy; do not assume a blanket Creative Commons license.",
+      "caveat": "An ordinal area phase is not every household's outcome and must not be averaged into a disease-risk score. IPC-compatible analyses are not necessarily IPC consensus products.",
+      "citation": "FEWS NET, country, product, issue date, assessment/projection period, URL and access date; include credited partner sources.",
+      "links": {
+        "Provider": "https://fews.net/",
+        "Acute food insecurity data": "https://fews.net/data/acute-food-insecurity",
+        "Attribution policy": "https://help.fews.net/fdp/data-and-information-use-and-attribution-policy"
+      }
+    },
+    {
+      "id": "aqueduct",
+      "title": "WRI Aqueduct Water Risk Atlas 4.0",
+      "themes": [
+        "Water",
+        "Adaptation"
+      ],
+      "kind": "External open-data gateway",
+      "description": "Baseline and future water-risk indicators for comparing explicitly defined basin-level conditions.",
+      "access": "Public map, data downloads and indicator dictionary.",
+      "license": "CC BY 4.0 for the named Aqueduct 4.0 data; credit WRI and original providers.",
+      "caveat": "Baseline water stress measures demand relative to renewable supply, not tap-water safety or clinic water availability. Raw indicators, normalized scores and future scenarios are distinct.",
+      "citation": "Kuzma et al. (2023), Aqueduct 4.0: Updated decision-relevant global water risk indicators. WRI, doi:10.46830/writn.23.00061.",
+      "links": {
+        "Atlas": "https://www.wri.org/aqueduct",
+        "Data": "https://www.wri.org/data/aqueduct-global-maps-40-data",
+        "Dictionary": "https://github.com/wri/Aqueduct40/blob/master/data_dictionary_water-risk-atlas.md",
+        "Methods": "https://doi.org/10.46830/writn.23.00061"
+      }
+    },
+    {
+      "id": "migration_iom",
+      "title": "IOM environmental migration resources",
+      "themes": [
+        "Mobility",
+        "Equity",
+        "Care access"
+      ],
+      "kind": "Reference and data-discovery gateways",
+      "description": "Migration Data Portal, IOM environmental migration resources and DTM climate-and-mobility material support careful interpretation of movement and immobility.",
+      "access": "External portals; some pages can restrict automated access. Select an explicitly documented underlying dataset before analysis.",
+      "license": "Dataset- and publication-specific IOM/provider terms. Linked references only here.",
+      "caveat": "Stocks, flows, displacement events and unique people differ. Migration is multicausal; movement does not automatically confer refugee status. Avoid identifiable routes or vulnerable-person locations.",
+      "citation": "IOM / Migration Data Portal / DTM, exact named product, location, reporting period, release and access date.",
+      "links": {
+        "Environmental migration theme": "https://www.migrationdataportal.org/themes/environmental-migration",
+        "IOM resources": "https://environmentalmigration.iom.int/data-and-resources",
+        "DTM climate and mobility": "https://dtm.iom.int/climate-and-mobility"
+      }
+    },
+    {
+      "id": "climate_conflict",
+      "title": "Climate Conflict Vulnerability Index",
+      "themes": [
+        "Conflict context",
+        "Climate literacy"
+      ],
+      "kind": "External composite-index gateway",
+      "description": "A quarterly 0.5-degree composite index for investigating interacting contextual vulnerabilities.",
+      "access": "Public maps and release-specific scores; raw indicator availability and historical release corrections vary.",
+      "license": "Data: CC BY-NC 4.0. Software: GPL 3.0. These are separate rights; no index data bundled here.",
+      "caveat": "An expert-weighted index is not a calibrated probability of violence or evidence that climate causes conflict. Check input dates, missingness, scale and release corrections; never rank patients or communities with it.",
+      "citation": "Climate Conflict Vulnerability Index, University of the Bundeswehr Munich / PIK / German Federal Foreign Office; cite exact quarterly release and methodology.",
+      "links": {
+        "User-suggested site": "https://climate-conflict.org/www",
+        "Project": "https://climate-conflict.org/www/project",
+        "Methodology": "https://climate-conflict.org/www/index/methodology"
+      }
+    },
+    {
+      "id": "ushmm_climate",
+      "title": "Climate change and mass atrocities: a research frontier",
+      "themes": [
+        "Conflict context",
+        "Equity"
+      ],
+      "kind": "Historical research commentary",
+      "description": "A discussion prompt about pathways, institutions, prevention and uncertainty, paired with current scientific evidence.",
+      "access": "Public museum article; no dataset or figures copied.",
+      "license": "USHMM terms; linked reference and original summary only.",
+      "caveat": "A 2017 research commentary is not a current risk forecast, causal model or operational targeting layer.",
+      "citation": "Blatt, Charlotte (2017-08-16). Climate Change and Mass Atrocities: A New Research Frontier. United States Holocaust Memorial Museum.",
+      "links": {
+        "Article": "https://www.ushmm.org/genocide-prevention/blog/climate-change-and-mass-atrocities-a-new-research-frontier",
+        "Terms": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use"
+      }
+    },
+    {
+      "id": "sponge_city",
+      "title": "Sponge cities and green infrastructure",
+      "themes": [
+        "Adaptation",
+        "Water",
+        "Urban health"
+      ],
+      "kind": "Design concept and reading pathway",
+      "description": "Connect permeable surfaces, storage, vegetation and drainage to the adaptation lesson's auditable rainfall-volume calculation.",
+      "access": "Background encyclopedia and primary environmental guidance; no copied maps or text.",
+      "license": "Wikipedia text has its own share-alike terms; primary guidance retains provider rights. Original course exercise is separately licensed.",
+      "caveat": "Storage capacity alone cannot predict flood prevention. Consider infiltration, saturation, maintenance, drainage, mosquitoes, accessibility and tradeoffs in pollen exposure.",
+      "citation": "Cite the exact design guidance and local hydrologic evidence used. Wikipedia is a background orientation, not a substitute for engineering validation.",
+      "links": {
+        "User-suggested background": "https://en.wikipedia.org/wiki/Sponge_city",
+        "US EPA green infrastructure": "https://www.epa.gov/green-infrastructure"
+      }
+    },
+    {
+      "id": "unep_nbs",
+      "title": "Nature-based solutions for climate change mitigation",
+      "themes": [
+        "Adaptation",
+        "Ecosystems",
+        "Equity"
+      ],
+      "kind": "Scientific policy report",
+      "description": "Conservation, restoration and ecosystem management as climate mitigation, with safeguards and limits.",
+      "access": "Public UNEP report; linked reading and original course synthesis.",
+      "license": "Report-specific UNEP/IUCN rights and third-party credits. Figures are not republished here.",
+      "caveat": "Mitigation potential is not a guaranteed local health benefit or a substitute for emissions reductions. Test biodiversity, tenure, livelihoods, maintenance and distributional impacts.",
+      "citation": "UNEP and IUCN (2021). Nature-based solutions for climate change mitigation. Published 4 November 2021.",
+      "links": {
+        "Report": "https://www.unep.org/resources/report/nature-based-solutions-climate-change-mitigation"
+      }
+    },
+    {
+      "id": "who_wmo_atlas",
+      "title": "WHO / WMO Atlas of Health and Climate",
+      "themes": [
+        "Disease",
+        "Heat",
+        "Climate literacy"
+      ],
+      "kind": "Foundational historical atlas",
+      "description": "Joint meteorological and public-health cases spanning infections, emergencies, environmental conditions and preparedness.",
+      "access": "WHO, TDR and WMO landing pages point to the same 2012 work. Linked reference, no copied figures.",
+      "license": "Current WHO page states CC BY-NC-SA 3.0 IGO, while original PDF says © WHO/WMO 2012 all rights reserved and credits third-party figures. Treat illustrations individually.",
+      "caveat": "Historical synthesis: update epidemiology and current climate evidence separately. WHO and WMO landing-page dates differ; the publication year is 2012.",
+      "citation": "WHO and WMO (2012). Atlas of Health and Climate. 64 pp. ISBN 9789241564526; WMO-No.1098.",
+      "links": {
+        "WHO publication": "https://www.who.int/publications/i/item/9789241564526",
+        "User-suggested TDR page": "https://tdr.who.int/home/our-work/global-engagement/9789241564526",
+        "WMO publication": "https://wmo.int/publication-series/atlas-of-health-and-climate"
+      }
+    },
+    {
+      "id": "malaria_atlas_project",
+      "title": "Malaria Atlas Project",
+      "themes": [
+        "Disease",
+        "Equity",
+        "Care access"
+      ],
+      "kind": "Modeled-estimate data gateway",
+      "description": "Explore malaria incidence, prevalence, interventions and uncertainty, using small country/admin summaries before global raster analysis.",
+      "access": "Public platform and documented HTTP access guide; select an explicit release, species, indicator and denominator.",
+      "license": "MAP maps explicitly CC BY 3.0; original survey/provider rights remain separate. Cite the exact data layer and associated publication.",
+      "caveat": "Modeled estimates are not surveillance case counts or climate-attributable cases. Validate zero-versus-missing conventions and whether a metric has genuine uncertainty bounds.",
+      "citation": "Malaria Atlas Project, exact dataset/layer and publication, species, release, year, URL and access date. Do not cite only the portal for an analysis.",
+      "links": {
+        "Provider": "https://malariaatlas.org/",
+        "Data platform": "https://data.malariaatlas.org/",
+        "HTTP access guide": "https://data.malariaatlas.org/llms.txt",
+        "Open-access policy": "https://malariaatlas.org/open-access-policy/"
+      }
+    },
+    {
+      "id": "eaaci_planetary_atlas",
+      "title": "EAACI Global Atlas of Planetary Health",
+      "themes": [
+        "Disease",
+        "Urban health",
+        "Adaptation"
+      ],
+      "kind": "Clinical-science reference",
+      "description": "Climate, air pollution, allergy, asthma, pollen, healthcare sustainability and nature-based solutions broaden the clinical pathways in the course.",
+      "access": "Public 2025 atlas PDF; v1.2 appears in the supplied filename, not an independently verified edition statement.",
+      "license": "No blanket open license verified; figure-specific permissions differ. Linked reference and original synthesis, no figures copied.",
+      "caveat": "A clinical-science atlas is not a geospatial dataset or local asthma predictor. Urban planting can have seasonal pollen tradeoffs; assess locally appropriate species and exposure.",
+      "citation": "Akdis, C., Agache, I., Nadeau, K.C., and Pali-Schöll, I. (eds.) (2025). Global Atlas of Planetary Health. European Academy of Allergy and Clinical Immunology.",
+      "links": {
+        "Publication": "https://eaaci.org/books/global-atlas-of-planetary-health/",
+        "User-suggested PDF": "https://eaaci.org/wp-content/uploads/2025/09/Planetary-Health-Atlas-v1.2.pdf"
+      }
+    },
+    {
+      "id": "climahealth_wellcome",
+      "title": "ClimaHealth / Wellcome Climate Change Impact Map",
+      "themes": [
+        "Disease",
+        "Heat",
+        "Equity"
+      ],
+      "kind": "External historical interactive reference",
+      "description": "Wellcome's country explorer combines historical climate, disaster impacts and climate-sensitive disease literature; ClimaHealth provides the discovery entry.",
+      "access": "Public interactive dashboard. No underlying CRU or EM-DAT data copied into this repository.",
+      "license": "Wellcome website default CC BY 4.0 does not override upstream rights. CRU data: ODbL / Database Contents License. EM-DAT: registration and restrictive product-specific terms.",
+      "caveat": "Historical interface series extend through 2021 and use a 1991–2020 anomaly baseline; literature panel covers 2013–2020. Missing disaster records do not establish no event or no harm.",
+      "citation": "Wellcome (2022-07-05). Tracking the health effects of climate change around the world; Climate and Health Dashboard v15. Discovered via ClimaHealth; accessed 2026-10-09.",
+      "links": {
+        "User-suggested resource": "https://climahealth.info/resource-library/climate-change-impact-map/",
+        "Primary article": "https://wellcome.org/insights/articles/tracking-health-effects-climate-change-around-world",
+        "Interactive map": "https://climate-and-health-dashboard.s3.eu-west-1.amazonaws.com/v15/index.html",
+        "EM-DAT terms": "https://doc.emdat.be/docs/legal/terms-of-use/",
+        "CRU terms": "https://crudata.uea.ac.uk/cru/data/hrg/"
+      }
+    }
+  ]
+}

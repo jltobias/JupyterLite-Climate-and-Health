@@ -1,0 +1,28 @@
+# Migration from the 2024 teaching collection
+
+The original `2024-Climate-Heat-Stress` repository is preserved unchanged. This successor reuses its educational progression, questions and themes, while rewriting code and prose around small, attributed inputs. Large data, credentials and third-party illustrations were not copied.
+
+| Original source | Successor activities | Corrections and completion |
+|---|---|---|
+| NB00 Setup and Configuration | 00 Start here; browser guide; source registry | Core execution is credential-free. Authenticated CDS downloads become an optional advanced workflow outside Lite; no old API key is published |
+| NB01 Background/Foundation | 01 Global temperature; 03 Daily heat; 04 Urban cooling | A real global GISTEMP series replaces a Europe/global mismatch; anomalies are not absolute temperature or local exposure; original albedo, city heat and Singapore cooling questions become explicit exercises |
+| NB02 CDS API and Climate Data Management | 02 Climate data literacy; 03 Daily heat; 05 Coastal access; actual Healthsites context | Compact fixtures replace multi-GB and network-dependent runtime; Kuwait-style hot-day/facility sampling inspires new India/African reasoning exercises, without inventing program support |
+| NB02B Data Collection and Analysis | 02 Grid weighting and ensembles; 03 Daily heat | Kelvin conversion, cosine-area weights and interpolated 10/50/90 quantiles made executable; monthly missingness is explicit; single member and ensemble summaries are distinguished; original Mumbai exercise retained as context |
+| NB03 Impact Assessment | 05 Coastal access; 06 HIV/TB continuity; 07 Mobility | Sea-level, tidal datums and future projections separated; clinic/route dependencies explained; original coastal PEPFAR poster is credited as inspiration without redistributing uncertain-rights artwork or actual facility data |
+| NB04 Adaptation and Mitigation | 04 Urban cooling; 09 Food/water; 11 Adaptation | Green infrastructure, sponge-city, mangrove/seagrass, blue-carbon and engineering ideas examined with local suitability, maintenance and equity; operational planning becomes a completed comparison |
+| NB05 Modeling/Simulation/Decision-Making | Explorer; 10 Compound hazards; 11 Adaptation; 12 Capstone | Placeholder what-if and digital-twin ideas become working transparent scenarios; explicitly not validated digital twins; maladaptation and uncertainty discussed |
+| NB06 Conclusion and Reflection | 12 Capstone; explorer flashcard, multi-select quiz and feedback | Reflection becomes a worked briefing and rubric; no official/accredited certificate claims |
+| NBXX Air Pollution Impacts HIV and TB | 10 Compound hazards | Completes a dependency exercise without unsupported causal medical claims |
+| NBXX Wildfires, Cyclones, Natural Disasters | 10 Compound hazards; 06 Continuity | Completes a common-cause service interruption exercise; no invented event or disease observations |
+| Old/VERYOLD notebooks and resources JSON | Guided start, flashcard → multi-select question → explanatory feedback pattern | Reimplemented with original prose and corrected claims; stale paths, placeholder activities and uncertain-rights figures excluded |
+
+Additional methodological repairs apply throughout: TXx=max(Tmax), TNn=min(Tmin), TXn=min(Tmax), TNx=max(Tmin); a count above 35 °C is not 'deadly heat' and cannot establish consecutive days. DJF/MAM/JJA/SON avoid universal hemisphere-specific labels, and December is grouped with the following year. SSPs are not simply renamed RCPs, and neither is a model ensemble.
+
+## Related public projects examined
+
+- [JupyterLite Sea-Level-Rise](https://github.com/jltobias/JupyterLite-Sea-Level-Rise), James L. Tobias and contributors: its Book + Lite + dashboard structure, explicit evidence/scenario distinction, linked map/story views and service/equity capstone informed this architecture. Its README, source audit and `coastlab.py` were inspected. No poster, private portfolio, probabilities or upstream flood outputs are copied; all helper code here is original. Source project code MIT, original prose CC BY 4.0, original fictional data CC0 under its documented scope.
+- [DRC Population Mobility Border Mapping](https://github.com/jltobias/JupyterLite-DRC-Population-Mobility-Border-Mapping): portable geographic stories and mobility/health-access teaching patterns informed the movement lesson. Ideas only; no source dataset or code copied.
+- [HIVDB Drug Resistance Maps](https://github.com/jltobias/JupyterLite-HIVDB-Drug-Resistance-Maps): separating dated evidence from unavailable/current data, browser-local notebook persistence and reproducible acquisition informed the data contract. No HIVDB data or figures used here.
+- [JupyterLite STAC Browser](https://github.com/jltobias/JupyterLite-STAC-Browser): related catalog-discovery patterns inform the separate satellite gateway, with its own source and reuse documentation.
+
+The resulting architecture is `content/` for canonical lessons and fixtures, `book/` for MyST reading, `web/` for interactive experiences, and one combined static build under the repository's GitHub Pages prefix.

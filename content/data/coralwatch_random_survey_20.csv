@@ -1,0 +1,21 @@
+survey_record_id,sample_id,event_datetime_source,country,reef_context,coral_form,lightest_colour_score,darkest_colour_score,average_colour_score,location_accuracy_value_source
+bd39e449-038f-4d45-ab6d-b56922a6f532,1,2026-10-08T21:00:00Z,Egypt,"Abu Sawatyr, Red Sea, Egypt",Branching corals,2,4,3,50
+bd39e449-038f-4d45-ab6d-b56922a6f532,2,2026-10-08T21:00:00Z,Egypt,"Abu Sawatyr, Red Sea, Egypt",Boulder corals,2,2,2,50
+bd39e449-038f-4d45-ab6d-b56922a6f532,3,2026-10-08T21:00:00Z,Egypt,"Abu Sawatyr, Red Sea, Egypt",Branching corals,1,5,3,50
+bd39e449-038f-4d45-ab6d-b56922a6f532,4,2026-10-08T21:00:00Z,Egypt,"Abu Sawatyr, Red Sea, Egypt",Branching corals,2,3,2.5,50
+bd39e449-038f-4d45-ab6d-b56922a6f532,5,2026-10-08T21:00:00Z,Egypt,"Abu Sawatyr, Red Sea, Egypt",Branching corals,1,2,1.5,50
+bd39e449-038f-4d45-ab6d-b56922a6f532,6,2026-10-08T21:00:00Z,Egypt,"Abu Sawatyr, Red Sea, Egypt",Plate corals,3,4,3.5,50
+bd39e449-038f-4d45-ab6d-b56922a6f532,7,2026-10-08T21:00:00Z,Egypt,"Abu Sawatyr, Red Sea, Egypt",Boulder corals,3,3,3,50
+bd39e449-038f-4d45-ab6d-b56922a6f532,8,2026-10-08T21:00:00Z,Egypt,"Abu Sawatyr, Red Sea, Egypt",Soft corals,2,3,2.5,50
+bd39e449-038f-4d45-ab6d-b56922a6f532,9,2026-10-08T21:00:00Z,Egypt,"Abu Sawatyr, Red Sea, Egypt",Branching corals,4,4,4,50
+bd39e449-038f-4d45-ab6d-b56922a6f532,10,2026-10-08T21:00:00Z,Egypt,"Abu Sawatyr, Red Sea, Egypt",Boulder corals,4,5,4.5,50
+bd39e449-038f-4d45-ab6d-b56922a6f532,11,2026-10-08T21:00:00Z,Egypt,"Abu Sawatyr, Red Sea, Egypt",Plate corals,3,4,3.5,50
+bd39e449-038f-4d45-ab6d-b56922a6f532,12,2026-10-08T21:00:00Z,Egypt,"Abu Sawatyr, Red Sea, Egypt",Branching corals,2,3,2.5,50
+bd39e449-038f-4d45-ab6d-b56922a6f532,13,2026-10-08T21:00:00Z,Egypt,"Abu Sawatyr, Red Sea, Egypt",Boulder corals,3,3,3,50
+bd39e449-038f-4d45-ab6d-b56922a6f532,14,2026-10-08T21:00:00Z,Egypt,"Abu Sawatyr, Red Sea, Egypt",Boulder corals,2,3,2.5,50
+bd39e449-038f-4d45-ab6d-b56922a6f532,15,2026-10-08T21:00:00Z,Egypt,"Abu Sawatyr, Red Sea, Egypt",Branching corals,3,4,3.5,50
+bd39e449-038f-4d45-ab6d-b56922a6f532,16,2026-10-08T21:00:00Z,Egypt,"Abu Sawatyr, Red Sea, Egypt",Soft corals,3,3,3,50
+bd39e449-038f-4d45-ab6d-b56922a6f532,17,2026-10-08T21:00:00Z,Egypt,"Abu Sawatyr, Red Sea, Egypt",Branching corals,2,4,3,50
+bd39e449-038f-4d45-ab6d-b56922a6f532,18,2026-10-08T21:00:00Z,Egypt,"Abu Sawatyr, Red Sea, Egypt",Branching corals,1,1,1,50
+bd39e449-038f-4d45-ab6d-b56922a6f532,19,2026-10-08T21:00:00Z,Egypt,"Abu Sawatyr, Red Sea, Egypt",Branching corals,1,5,3,50
+bd39e449-038f-4d45-ab6d-b56922a6f532,20,2026-10-08T21:00:00Z,Egypt,"Abu Sawatyr, Red Sea, Egypt",Plate corals,2,4,3,50

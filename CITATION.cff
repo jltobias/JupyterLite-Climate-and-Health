@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: Please cite this learning resource and the original data providers used in your analysis.
+title: 'Climate & Health: a browser learning field guide'
+authors:
+  - family-names: Tobias
+    given-names: James L.
+type: software
+version: 1.0.0
+date-released: '2026-10-09'
+url: https://jltobias.github.io/JupyterLite-Climate-and-Health/
+repository-code: https://github.com/jltobias/JupyterLite-Climate-and-Health
+license: MIT
+abstract: Guided Jupyter Book lessons, browser Python notebooks, maps, geographic stories and transparent fictional scenarios for climate and health education. Educational prose, original synthetic data and third-party inputs have separately documented license scopes.

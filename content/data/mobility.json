@@ -1,0 +1,20 @@
+{
+  "data_type": "synthetic",
+  "period": "fictional 30 days",
+  "movements": [
+    {
+      "origin": "Coast community",
+      "destination": "Inland host community",
+      "events": 120,
+      "distinct_persons": 95
+    },
+    {
+      "origin": "Inland host community",
+      "destination": "Coast community",
+      "events": 35,
+      "distinct_persons": 30
+    }
+  ],
+  "unique_people_across_all_routes": 110,
+  "note": "Repeated movement and overlap mean route persons cannot be summed to unique people. No legal status inferred."
+}

@@ -1,0 +1,1 @@
+Upstream JupyterGIS v0.16.7 JSON schemas, schemaVersion 0.6.0. Source: https://github.com/geojupyter/jupytergis/tree/v0.16.7/packages/schema . BSD-3-Clause, JupyterGIS contributors; complete license retained. These fixtures validate project and typed parameter contracts without network access.

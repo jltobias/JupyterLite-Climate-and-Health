@@ -1,0 +1,913 @@
+{
+  "provenance": {
+    "provider": "Digital Earth Africa",
+    "source_url": "https://explorer.digitalearth.africa/stac/search?collections=wofs_ls_summary_annual&bbox=34.59%2C-20.03%2C35.09%2C-19.63&datetime=2022-01-01T00%3A00%3A00Z%2F2022-12-31T23%3A59%3A59Z&limit=6",
+    "request": {
+      "collections": "wofs_ls_summary_annual",
+      "bbox": "34.59,-20.03,35.09,-19.63",
+      "datetime": "2022-01-01T00:00:00Z/2022-12-31T23:59:59Z",
+      "limit": 6
+    },
+    "retrieved_on": "2026-10-09",
+    "data_class": "catalog_metadata_snapshot",
+    "license": "CC-BY-4.0",
+    "license_url": "https://docs.digitalearthafrica.org/en/latest/data_specs/Landsat_WOfS_specs.html",
+    "raw_response_sha256": "0cda465aef26bd87ae015284c580c18709066d803beb55cddef45b92a33501ff",
+    "scope": "One bounded page only. Not complete coverage. Scene footprints are not observed hazard extents; assets retain provider terms."
+  },
+  "feature_collection": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "stac_version": "1.1.0",
+        "stac_extensions": [
+          "https://stac-extensions.github.io/eo/v1.1.0/schema.json",
+          "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+          "https://stac-extensions.github.io/projection/v2.0.0/schema.json"
+        ],
+        "id": "29303217-b837-5efb-af87-a4225533ec6c",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                34.82360384567504,
+                -19.15870834416354
+              ],
+              [
+                34.82360384567504,
+                -19.956098524412905
+              ],
+              [
+                35.818563955551475,
+                -19.956098524412905
+              ],
+              [
+                35.818563955551475,
+                -19.15870834416354
+              ],
+              [
+                34.82360384567504,
+                -19.15870834416354
+              ]
+            ]
+          ]
+        },
+        "bbox": [
+          34.82360384567504,
+          -19.956098524412905,
+          35.818563955551475,
+          -19.15870834416354
+        ],
+        "properties": {
+          "datetime": "2022-01-01T00:00:00Z",
+          "proj:epsg": 6933,
+          "proj:shape": [
+            3200,
+            3200
+          ],
+          "odc:product": "wofs_ls_summary_annual",
+          "odc:producer": "ga.gov.au",
+          "proj:transform": [
+            30.0,
+            0.0,
+            3360000.0,
+            0.0,
+            -30.0,
+            -2400000.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "odc:file_format": "GeoTIFF",
+          "odc:region_code": "x216y051",
+          "end_datetime": "2022-12-31T23:59:59.999999Z",
+          "start_datetime": "2022-01-01T00:00:00Z",
+          "odc:product_family": "wo_summary",
+          "odc:dataset_version": "1.0.0",
+          "created": "2023-01-20T09:13:22Z",
+          "proj:code": "EPSG:6933",
+          "cubedash:region_code": "x216y051"
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "https://explorer.digitalearth.africa/stac/collections/wofs_ls_summary_annual/items/29303217-b837-5efb-af87-a4225533ec6c",
+            "type": "application/json"
+          },
+          {
+            "rel": "odc_yaml",
+            "href": "https://explorer.digitalearth.africa/dataset/29303217-b837-5efb-af87-a4225533ec6c.odc-metadata.yaml",
+            "type": "text/yaml",
+            "title": "ODC Dataset YAML"
+          },
+          {
+            "rel": "collection",
+            "href": "https://explorer.digitalearth.africa/stac/collections/wofs_ls_summary_annual"
+          },
+          {
+            "rel": "product_overview",
+            "href": "https://explorer.digitalearth.africa/product/wofs_ls_summary_annual",
+            "type": "text/html",
+            "title": "ODC Product Overview"
+          },
+          {
+            "rel": "alternative",
+            "href": "https://explorer.digitalearth.africa/dataset/29303217-b837-5efb-af87-a4225533ec6c",
+            "type": "text/html",
+            "title": "ODC Dataset Overview"
+          },
+          {
+            "rel": "canonical",
+            "href": "https://deafrica-services.s3.af-south-1.amazonaws.com/wofs_ls_summary_annual/1-0-0/x216/y051/2022--P1Y/wofs_ls_summary_annual_x216y051_2022--P1Y.stac-item.json",
+            "type": "application/json"
+          }
+        ],
+        "assets": {
+          "count_wet": {
+            "href": "s3://deafrica-services/wofs_ls_summary_annual/1-0-0/x216/y051/2022--P1Y/wofs_ls_summary_annual_x216y051_2022--P1Y_count_wet.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "title": "count_wet",
+            "eo:bands": [
+              {
+                "name": "count_wet"
+              }
+            ],
+            "proj:code": "EPSG:6933",
+            "proj:shape": [
+              3200,
+              3200
+            ],
+            "proj:transform": [
+              30.0,
+              0.0,
+              3360000.0,
+              0.0,
+              -30.0,
+              -2400000.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "raster:bands": [
+              {
+                "nodata": -999,
+                "data_type": "int16",
+                "unit": "1"
+              }
+            ],
+            "roles": [
+              "data"
+            ]
+          },
+          "frequency": {
+            "href": "s3://deafrica-services/wofs_ls_summary_annual/1-0-0/x216/y051/2022--P1Y/wofs_ls_summary_annual_x216y051_2022--P1Y_frequency.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "title": "frequency",
+            "eo:bands": [
+              {
+                "name": "frequency"
+              }
+            ],
+            "proj:code": "EPSG:6933",
+            "proj:shape": [
+              3200,
+              3200
+            ],
+            "proj:transform": [
+              30.0,
+              0.0,
+              3360000.0,
+              0.0,
+              -30.0,
+              -2400000.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "raster:bands": [
+              {
+                "nodata": "nan",
+                "data_type": "float32",
+                "unit": "1"
+              }
+            ],
+            "roles": [
+              "data"
+            ]
+          },
+          "count_clear": {
+            "href": "s3://deafrica-services/wofs_ls_summary_annual/1-0-0/x216/y051/2022--P1Y/wofs_ls_summary_annual_x216y051_2022--P1Y_count_clear.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "title": "count_clear",
+            "eo:bands": [
+              {
+                "name": "count_clear"
+              }
+            ],
+            "proj:code": "EPSG:6933",
+            "proj:shape": [
+              3200,
+              3200
+            ],
+            "proj:transform": [
+              30.0,
+              0.0,
+              3360000.0,
+              0.0,
+              -30.0,
+              -2400000.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "raster:bands": [
+              {
+                "nodata": -999,
+                "data_type": "int16",
+                "unit": "1"
+              }
+            ],
+            "roles": [
+              "data"
+            ]
+          }
+        },
+        "collection": "wofs_ls_summary_annual"
+      },
+      {
+        "type": "Feature",
+        "stac_version": "1.1.0",
+        "stac_extensions": [
+          "https://stac-extensions.github.io/eo/v1.1.0/schema.json",
+          "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+          "https://stac-extensions.github.io/projection/v2.0.0/schema.json"
+        ],
+        "id": "a135ef22-2d14-551a-8d7c-d4afa789fd01",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                33.828643735798615,
+                -19.956098524412905
+              ],
+              [
+                33.828643735798615,
+                -20.757442660842035
+              ],
+              [
+                34.82360384567504,
+                -20.757442660842035
+              ],
+              [
+                34.82360384567504,
+                -19.956098524412905
+              ],
+              [
+                33.828643735798615,
+                -19.956098524412905
+              ]
+            ]
+          ]
+        },
+        "bbox": [
+          33.828643735798615,
+          -20.757442660842035,
+          34.82360384567504,
+          -19.956098524412905
+        ],
+        "properties": {
+          "datetime": "2022-01-01T00:00:00Z",
+          "proj:epsg": 6933,
+          "proj:shape": [
+            3200,
+            3200
+          ],
+          "odc:product": "wofs_ls_summary_annual",
+          "odc:producer": "ga.gov.au",
+          "proj:transform": [
+            30.0,
+            0.0,
+            3264000.0,
+            0.0,
+            -30.0,
+            -2496000.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "odc:file_format": "GeoTIFF",
+          "odc:region_code": "x215y050",
+          "end_datetime": "2022-12-31T23:59:59.999999Z",
+          "start_datetime": "2022-01-01T00:00:00Z",
+          "odc:product_family": "wo_summary",
+          "odc:dataset_version": "1.0.0",
+          "created": "2023-01-20T09:13:18Z",
+          "proj:code": "EPSG:6933",
+          "cubedash:region_code": "x215y050"
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "https://explorer.digitalearth.africa/stac/collections/wofs_ls_summary_annual/items/a135ef22-2d14-551a-8d7c-d4afa789fd01",
+            "type": "application/json"
+          },
+          {
+            "rel": "odc_yaml",
+            "href": "https://explorer.digitalearth.africa/dataset/a135ef22-2d14-551a-8d7c-d4afa789fd01.odc-metadata.yaml",
+            "type": "text/yaml",
+            "title": "ODC Dataset YAML"
+          },
+          {
+            "rel": "collection",
+            "href": "https://explorer.digitalearth.africa/stac/collections/wofs_ls_summary_annual"
+          },
+          {
+            "rel": "product_overview",
+            "href": "https://explorer.digitalearth.africa/product/wofs_ls_summary_annual",
+            "type": "text/html",
+            "title": "ODC Product Overview"
+          },
+          {
+            "rel": "alternative",
+            "href": "https://explorer.digitalearth.africa/dataset/a135ef22-2d14-551a-8d7c-d4afa789fd01",
+            "type": "text/html",
+            "title": "ODC Dataset Overview"
+          },
+          {
+            "rel": "canonical",
+            "href": "https://deafrica-services.s3.af-south-1.amazonaws.com/wofs_ls_summary_annual/1-0-0/x215/y050/2022--P1Y/wofs_ls_summary_annual_x215y050_2022--P1Y.stac-item.json",
+            "type": "application/json"
+          }
+        ],
+        "assets": {
+          "count_wet": {
+            "href": "s3://deafrica-services/wofs_ls_summary_annual/1-0-0/x215/y050/2022--P1Y/wofs_ls_summary_annual_x215y050_2022--P1Y_count_wet.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "title": "count_wet",
+            "eo:bands": [
+              {
+                "name": "count_wet"
+              }
+            ],
+            "proj:code": "EPSG:6933",
+            "proj:shape": [
+              3200,
+              3200
+            ],
+            "proj:transform": [
+              30.0,
+              0.0,
+              3264000.0,
+              0.0,
+              -30.0,
+              -2496000.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "raster:bands": [
+              {
+                "nodata": -999,
+                "data_type": "int16",
+                "unit": "1"
+              }
+            ],
+            "roles": [
+              "data"
+            ]
+          },
+          "frequency": {
+            "href": "s3://deafrica-services/wofs_ls_summary_annual/1-0-0/x215/y050/2022--P1Y/wofs_ls_summary_annual_x215y050_2022--P1Y_frequency.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "title": "frequency",
+            "eo:bands": [
+              {
+                "name": "frequency"
+              }
+            ],
+            "proj:code": "EPSG:6933",
+            "proj:shape": [
+              3200,
+              3200
+            ],
+            "proj:transform": [
+              30.0,
+              0.0,
+              3264000.0,
+              0.0,
+              -30.0,
+              -2496000.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "raster:bands": [
+              {
+                "nodata": "nan",
+                "data_type": "float32",
+                "unit": "1"
+              }
+            ],
+            "roles": [
+              "data"
+            ]
+          },
+          "count_clear": {
+            "href": "s3://deafrica-services/wofs_ls_summary_annual/1-0-0/x215/y050/2022--P1Y/wofs_ls_summary_annual_x215y050_2022--P1Y_count_clear.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "title": "count_clear",
+            "eo:bands": [
+              {
+                "name": "count_clear"
+              }
+            ],
+            "proj:code": "EPSG:6933",
+            "proj:shape": [
+              3200,
+              3200
+            ],
+            "proj:transform": [
+              30.0,
+              0.0,
+              3264000.0,
+              0.0,
+              -30.0,
+              -2496000.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "raster:bands": [
+              {
+                "nodata": -999,
+                "data_type": "int16",
+                "unit": "1"
+              }
+            ],
+            "roles": [
+              "data"
+            ]
+          }
+        },
+        "collection": "wofs_ls_summary_annual"
+      },
+      {
+        "type": "Feature",
+        "stac_version": "1.1.0",
+        "stac_extensions": [
+          "https://stac-extensions.github.io/eo/v1.1.0/schema.json",
+          "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+          "https://stac-extensions.github.io/projection/v2.0.0/schema.json"
+        ],
+        "id": "c1d182b7-bb1c-5355-b0ad-b23c7d0dc859",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                33.828643735798615,
+                -19.15870834416354
+              ],
+              [
+                33.828643735798615,
+                -19.956098524412905
+              ],
+              [
+                34.82360384567504,
+                -19.956098524412905
+              ],
+              [
+                34.82360384567504,
+                -19.15870834416354
+              ],
+              [
+                33.828643735798615,
+                -19.15870834416354
+              ]
+            ]
+          ]
+        },
+        "bbox": [
+          33.828643735798615,
+          -19.956098524412905,
+          34.82360384567504,
+          -19.15870834416354
+        ],
+        "properties": {
+          "datetime": "2022-01-01T00:00:00Z",
+          "proj:epsg": 6933,
+          "proj:shape": [
+            3200,
+            3200
+          ],
+          "odc:product": "wofs_ls_summary_annual",
+          "odc:producer": "ga.gov.au",
+          "proj:transform": [
+            30.0,
+            0.0,
+            3264000.0,
+            0.0,
+            -30.0,
+            -2400000.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "odc:file_format": "GeoTIFF",
+          "odc:region_code": "x215y051",
+          "end_datetime": "2022-12-31T23:59:59.999999Z",
+          "start_datetime": "2022-01-01T00:00:00Z",
+          "odc:product_family": "wo_summary",
+          "odc:dataset_version": "1.0.0",
+          "created": "2023-01-20T09:13:09Z",
+          "proj:code": "EPSG:6933",
+          "cubedash:region_code": "x215y051"
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "https://explorer.digitalearth.africa/stac/collections/wofs_ls_summary_annual/items/c1d182b7-bb1c-5355-b0ad-b23c7d0dc859",
+            "type": "application/json"
+          },
+          {
+            "rel": "odc_yaml",
+            "href": "https://explorer.digitalearth.africa/dataset/c1d182b7-bb1c-5355-b0ad-b23c7d0dc859.odc-metadata.yaml",
+            "type": "text/yaml",
+            "title": "ODC Dataset YAML"
+          },
+          {
+            "rel": "collection",
+            "href": "https://explorer.digitalearth.africa/stac/collections/wofs_ls_summary_annual"
+          },
+          {
+            "rel": "product_overview",
+            "href": "https://explorer.digitalearth.africa/product/wofs_ls_summary_annual",
+            "type": "text/html",
+            "title": "ODC Product Overview"
+          },
+          {
+            "rel": "alternative",
+            "href": "https://explorer.digitalearth.africa/dataset/c1d182b7-bb1c-5355-b0ad-b23c7d0dc859",
+            "type": "text/html",
+            "title": "ODC Dataset Overview"
+          },
+          {
+            "rel": "canonical",
+            "href": "https://deafrica-services.s3.af-south-1.amazonaws.com/wofs_ls_summary_annual/1-0-0/x215/y051/2022--P1Y/wofs_ls_summary_annual_x215y051_2022--P1Y.stac-item.json",
+            "type": "application/json"
+          }
+        ],
+        "assets": {
+          "count_wet": {
+            "href": "s3://deafrica-services/wofs_ls_summary_annual/1-0-0/x215/y051/2022--P1Y/wofs_ls_summary_annual_x215y051_2022--P1Y_count_wet.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "title": "count_wet",
+            "eo:bands": [
+              {
+                "name": "count_wet"
+              }
+            ],
+            "proj:code": "EPSG:6933",
+            "proj:shape": [
+              3200,
+              3200
+            ],
+            "proj:transform": [
+              30.0,
+              0.0,
+              3264000.0,
+              0.0,
+              -30.0,
+              -2400000.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "raster:bands": [
+              {
+                "nodata": -999,
+                "data_type": "int16",
+                "unit": "1"
+              }
+            ],
+            "roles": [
+              "data"
+            ]
+          },
+          "frequency": {
+            "href": "s3://deafrica-services/wofs_ls_summary_annual/1-0-0/x215/y051/2022--P1Y/wofs_ls_summary_annual_x215y051_2022--P1Y_frequency.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "title": "frequency",
+            "eo:bands": [
+              {
+                "name": "frequency"
+              }
+            ],
+            "proj:code": "EPSG:6933",
+            "proj:shape": [
+              3200,
+              3200
+            ],
+            "proj:transform": [
+              30.0,
+              0.0,
+              3264000.0,
+              0.0,
+              -30.0,
+              -2400000.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "raster:bands": [
+              {
+                "nodata": "nan",
+                "data_type": "float32",
+                "unit": "1"
+              }
+            ],
+            "roles": [
+              "data"
+            ]
+          },
+          "count_clear": {
+            "href": "s3://deafrica-services/wofs_ls_summary_annual/1-0-0/x215/y051/2022--P1Y/wofs_ls_summary_annual_x215y051_2022--P1Y_count_clear.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "title": "count_clear",
+            "eo:bands": [
+              {
+                "name": "count_clear"
+              }
+            ],
+            "proj:code": "EPSG:6933",
+            "proj:shape": [
+              3200,
+              3200
+            ],
+            "proj:transform": [
+              30.0,
+              0.0,
+              3264000.0,
+              0.0,
+              -30.0,
+              -2400000.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "raster:bands": [
+              {
+                "nodata": -999,
+                "data_type": "int16",
+                "unit": "1"
+              }
+            ],
+            "roles": [
+              "data"
+            ]
+          }
+        },
+        "collection": "wofs_ls_summary_annual"
+      },
+      {
+        "type": "Feature",
+        "stac_version": "1.1.0",
+        "stac_extensions": [
+          "https://stac-extensions.github.io/eo/v1.1.0/schema.json",
+          "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+          "https://stac-extensions.github.io/projection/v2.0.0/schema.json"
+        ],
+        "id": "e6182822-a2ab-571b-b4fa-53ecaefae177",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                34.82360384567504,
+                -19.956098524412905
+              ],
+              [
+                34.82360384567504,
+                -20.757442660842035
+              ],
+              [
+                35.818563955551475,
+                -20.757442660842035
+              ],
+              [
+                35.818563955551475,
+                -19.956098524412905
+              ],
+              [
+                34.82360384567504,
+                -19.956098524412905
+              ]
+            ]
+          ]
+        },
+        "bbox": [
+          34.82360384567504,
+          -20.757442660842035,
+          35.818563955551475,
+          -19.956098524412905
+        ],
+        "properties": {
+          "datetime": "2022-01-01T00:00:00Z",
+          "proj:epsg": 6933,
+          "proj:shape": [
+            3200,
+            3200
+          ],
+          "odc:product": "wofs_ls_summary_annual",
+          "odc:producer": "ga.gov.au",
+          "proj:transform": [
+            30.0,
+            0.0,
+            3360000.0,
+            0.0,
+            -30.0,
+            -2496000.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "odc:file_format": "GeoTIFF",
+          "odc:region_code": "x216y050",
+          "end_datetime": "2022-12-31T23:59:59.999999Z",
+          "start_datetime": "2022-01-01T00:00:00Z",
+          "odc:product_family": "wo_summary",
+          "odc:dataset_version": "1.0.0",
+          "created": "2023-01-20T09:13:19Z",
+          "proj:code": "EPSG:6933",
+          "cubedash:region_code": "x216y050"
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "https://explorer.digitalearth.africa/stac/collections/wofs_ls_summary_annual/items/e6182822-a2ab-571b-b4fa-53ecaefae177",
+            "type": "application/json"
+          },
+          {
+            "rel": "odc_yaml",
+            "href": "https://explorer.digitalearth.africa/dataset/e6182822-a2ab-571b-b4fa-53ecaefae177.odc-metadata.yaml",
+            "type": "text/yaml",
+            "title": "ODC Dataset YAML"
+          },
+          {
+            "rel": "collection",
+            "href": "https://explorer.digitalearth.africa/stac/collections/wofs_ls_summary_annual"
+          },
+          {
+            "rel": "product_overview",
+            "href": "https://explorer.digitalearth.africa/product/wofs_ls_summary_annual",
+            "type": "text/html",
+            "title": "ODC Product Overview"
+          },
+          {
+            "rel": "alternative",
+            "href": "https://explorer.digitalearth.africa/dataset/e6182822-a2ab-571b-b4fa-53ecaefae177",
+            "type": "text/html",
+            "title": "ODC Dataset Overview"
+          },
+          {
+            "rel": "canonical",
+            "href": "https://deafrica-services.s3.af-south-1.amazonaws.com/wofs_ls_summary_annual/1-0-0/x216/y050/2022--P1Y/wofs_ls_summary_annual_x216y050_2022--P1Y.stac-item.json",
+            "type": "application/json"
+          }
+        ],
+        "assets": {
+          "count_wet": {
+            "href": "s3://deafrica-services/wofs_ls_summary_annual/1-0-0/x216/y050/2022--P1Y/wofs_ls_summary_annual_x216y050_2022--P1Y_count_wet.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "title": "count_wet",
+            "eo:bands": [
+              {
+                "name": "count_wet"
+              }
+            ],
+            "proj:code": "EPSG:6933",
+            "proj:shape": [
+              3200,
+              3200
+            ],
+            "proj:transform": [
+              30.0,
+              0.0,
+              3360000.0,
+              0.0,
+              -30.0,
+              -2496000.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "raster:bands": [
+              {
+                "nodata": -999,
+                "data_type": "int16",
+                "unit": "1"
+              }
+            ],
+            "roles": [
+              "data"
+            ]
+          },
+          "frequency": {
+            "href": "s3://deafrica-services/wofs_ls_summary_annual/1-0-0/x216/y050/2022--P1Y/wofs_ls_summary_annual_x216y050_2022--P1Y_frequency.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "title": "frequency",
+            "eo:bands": [
+              {
+                "name": "frequency"
+              }
+            ],
+            "proj:code": "EPSG:6933",
+            "proj:shape": [
+              3200,
+              3200
+            ],
+            "proj:transform": [
+              30.0,
+              0.0,
+              3360000.0,
+              0.0,
+              -30.0,
+              -2496000.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "raster:bands": [
+              {
+                "nodata": "nan",
+                "data_type": "float32",
+                "unit": "1"
+              }
+            ],
+            "roles": [
+              "data"
+            ]
+          },
+          "count_clear": {
+            "href": "s3://deafrica-services/wofs_ls_summary_annual/1-0-0/x216/y050/2022--P1Y/wofs_ls_summary_annual_x216y050_2022--P1Y_count_clear.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "title": "count_clear",
+            "eo:bands": [
+              {
+                "name": "count_clear"
+              }
+            ],
+            "proj:code": "EPSG:6933",
+            "proj:shape": [
+              3200,
+              3200
+            ],
+            "proj:transform": [
+              30.0,
+              0.0,
+              3360000.0,
+              0.0,
+              -30.0,
+              -2496000.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "raster:bands": [
+              {
+                "nodata": -999,
+                "data_type": "int16",
+                "unit": "1"
+              }
+            ],
+            "roles": [
+              "data"
+            ]
+          }
+        },
+        "collection": "wofs_ls_summary_annual"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://explorer.digitalearth.africa/stac/search",
+        "rel": "search",
+        "title": "Search",
+        "type": "application/geo+json",
+        "method": "GET"
+      },
+      {
+        "href": "https://explorer.digitalearth.africa/stac/search",
+        "rel": "search",
+        "title": "Search",
+        "type": "application/geo+json",
+        "method": "POST"
+      }
+    ],
+    "numberReturned": 4,
+    "numberMatched": 4
+  }
+}

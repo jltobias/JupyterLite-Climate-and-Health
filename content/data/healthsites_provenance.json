@@ -1,0 +1,134 @@
+{
+  "id": "healthsites-legacy-subset",
+  "data_class": "archived mapped facilities",
+  "provider": "Healthsites.io, derived from OpenStreetMap contributors",
+  "source_url": "https://healthsites.io/",
+  "upstream_source_url": "https://www.openstreetmap.org/",
+  "processed_on": "2026-10-09",
+  "original_extract_date": null,
+  "date_note": "Exact upstream extraction date is not recorded. Source is the user's legacy 2024 project archive; processed date is not data currency.",
+  "crs": "EPSG:4326",
+  "license": "ODbL-1.0",
+  "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "attribution": "\u00a9 OpenStreetMap contributors; extracted by Healthsites.io",
+  "source_files": [
+    {
+      "file": "World/World-node.shp",
+      "bytes": 26246320,
+      "sha256": "cb16498f8b91d1e5ee892596e37c6b51a27a77a248b559a6b7271a5a2b696a7a"
+    },
+    {
+      "file": "World/World-node.dbf",
+      "bytes": 3009880137,
+      "sha256": "54cbac60eef103291da043ade1bd81d45f4175f92d571deefbd3810031f6fcf7"
+    },
+    {
+      "file": "World/World-node.prj",
+      "bytes": 254,
+      "sha256": "93adc3b9ce3e25c1ff1628fa5b41fc577062351e6440db0b1fe8301646d1618e"
+    }
+  ],
+  "transform": "Point records only; \u00b10.25\u00b0 longitude/\u00b10.20\u00b0 latitude boxes around approximate city centers; select up to 24 unique OSM nodes nearest by longitude distance scaled by cosine(latitude), with physical row index as stable tie-breaker. Duplicate OSM IDs keep the first record in that order, not necessarily the latest version. Retain only OSM identifiers, name, amenity, healthcare and coordinates. No inference or imputation of service/support status.",
+  "selection": [
+    {
+      "case_id": "mumbai",
+      "city": "Mumbai",
+      "bbox": [
+        72.63,
+        18.88,
+        73.13,
+        19.279999999999998
+      ],
+      "candidate_points": 2070,
+      "included_points": 24,
+      "duplicate_ids_skipped_before_limit": 2
+    },
+    {
+      "case_id": "beira",
+      "city": "Beira",
+      "bbox": [
+        34.59,
+        -20.029999999999998,
+        35.09,
+        -19.63
+      ],
+      "candidate_points": 11,
+      "included_points": 11,
+      "duplicate_ids_skipped_before_limit": 0
+    },
+    {
+      "case_id": "durban",
+      "city": "Durban",
+      "bbox": [
+        30.77,
+        -30.06,
+        31.27,
+        -29.66
+      ],
+      "candidate_points": 50,
+      "included_points": 24,
+      "duplicate_ids_skipped_before_limit": 1
+    },
+    {
+      "case_id": "mombasa",
+      "city": "Mombasa",
+      "bbox": [
+        39.42,
+        -4.24,
+        39.92,
+        -3.84
+      ],
+      "candidate_points": 30,
+      "included_points": 24,
+      "duplicate_ids_skipped_before_limit": 3
+    },
+    {
+      "case_id": "lusaka",
+      "city": "Lusaka",
+      "bbox": [
+        28.03,
+        -15.59,
+        28.53,
+        -15.190000000000001
+      ],
+      "candidate_points": 58,
+      "included_points": 24,
+      "duplicate_ids_skipped_before_limit": 3
+    },
+    {
+      "case_id": "kampala",
+      "city": "Kampala",
+      "bbox": [
+        32.33,
+        0.14999999999999997,
+        32.83,
+        0.55
+      ],
+      "candidate_points": 1348,
+      "included_points": 24,
+      "duplicate_ids_skipped_before_limit": 0
+    },
+    {
+      "case_id": "lagos",
+      "city": "Lagos",
+      "bbox": [
+        3.13,
+        6.319999999999999,
+        3.63,
+        6.72
+      ],
+      "candidate_points": 433,
+      "included_points": 24,
+      "duplicate_ids_skipped_before_limit": 1
+    }
+  ],
+  "feature_count": 155,
+  "output_sha256": "d336d3c4c430cf640a2f8646ec16a6b7095db35f45224979d40c6d30af905f4e",
+  "limitations": [
+    "Not exhaustive or representative samples; counts are not city facility totals.",
+    "Point-only selection omits mapped building polygons and unmapped facilities.",
+    "Archived locations/tags may be outdated, incorrect or incomplete.",
+    "Presence does not establish current operation, HIV/TB services or PEPFAR support.",
+    "No patient, workforce, contact or observer identifiers are included."
+  ]
+}

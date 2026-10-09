@@ -1,0 +1,202 @@
+{
+  "schemaVersion": "0.6.0",
+  "options": {
+    "longitude": 45,
+    "latitude": 3,
+    "zoom": 2,
+    "projection": "EPSG:3857",
+    "bearing": 0,
+    "pitch": 0,
+    "extent": [
+      556597.4539663679,
+      -4439106.787250586,
+      9462156.717428254,
+      5311971.846945471
+    ]
+  },
+  "layerTree": [
+    "land",
+    "sites",
+    "mumbai-story",
+    "beira-story",
+    "mombasa-story",
+    "lusaka-story",
+    "lagos-story"
+  ],
+  "layers": {
+    "land": {
+      "name": "Natural Earth land (public domain)",
+      "type": "VectorLayer",
+      "visible": true,
+      "parameters": {
+        "source": "land-data",
+        "opacity": 0.5,
+        "symbologyState": {}
+      }
+    },
+    "sites": {
+      "name": "ARCHIVED actual map features; operation and funding unverified",
+      "type": "VectorLayer",
+      "visible": true,
+      "parameters": {
+        "source": "sites-data",
+        "opacity": 1,
+        "symbologyState": {}
+      }
+    },
+    "mumbai-story": {
+      "name": "Mumbai: climate and health",
+      "type": "StorySegmentLayer",
+      "visible": true,
+      "parameters": {
+        "zoom": 5,
+        "extent": [
+          7111089.071874315,
+          1127934.0330309474,
+          9114839.90615324,
+          3259063.7085103635
+        ],
+        "transition": {
+          "type": "smooth",
+          "time": 1
+        },
+        "layerOverride": [],
+        "content": {
+          "contentMode": "map",
+          "markdown": "## Mumbai: archived mapped facilities\n\nThese public map features are from Healthsites/OpenStreetMap. The source extraction date is unknown and this small sample is not a facility census. Presence does not establish current operation, HIV/TB services or PEPFAR support.\n\n\u00a9 OpenStreetMap contributors; extracted by Healthsites.io. ODbL-1.0. See `data/healthsites_provenance.json`.\n\nDo not assign the course's fictional scenario values to these actual features."
+        }
+      }
+    },
+    "beira-story": {
+      "name": "Beira: climate and health",
+      "type": "StorySegmentLayer",
+      "visible": true,
+      "parameters": {
+        "zoom": 5,
+        "extent": [
+          2876495.64209819,
+          -3354026.586003257,
+          4880246.476377114,
+          -1212833.8167833053
+        ],
+        "transition": {
+          "type": "smooth",
+          "time": 1
+        },
+        "layerOverride": [],
+        "content": {
+          "contentMode": "map",
+          "markdown": "## Beira: archived mapped facilities\n\nThese public map features are from Healthsites/OpenStreetMap. The source extraction date is unknown and this small sample is not a facility census. Presence does not establish current operation, HIV/TB services or PEPFAR support.\n\n\u00a9 OpenStreetMap contributors; extracted by Healthsites.io. ODbL-1.0. See `data/healthsites_provenance.json`.\n\nDo not assign the course's fictional scenario values to these actual features."
+        }
+      }
+    },
+    "mombasa-story": {
+      "name": "Mombasa: climate and health",
+      "type": "StorySegmentLayer",
+      "visible": true,
+      "parameters": {
+        "zoom": 5,
+        "extent": [
+          3414168.7826297004,
+          -1464302.5465990214,
+          5417919.616908625,
+          552835.6048836526
+        ],
+        "transition": {
+          "type": "smooth",
+          "time": 1
+        },
+        "layerOverride": [],
+        "content": {
+          "contentMode": "map",
+          "markdown": "## Mombasa: archived mapped facilities\n\nThese public map features are from Healthsites/OpenStreetMap. The source extraction date is unknown and this small sample is not a facility census. Presence does not establish current operation, HIV/TB services or PEPFAR support.\n\n\u00a9 OpenStreetMap contributors; extracted by Healthsites.io. ODbL-1.0. See `data/healthsites_provenance.json`.\n\nDo not assign the course's fictional scenario values to these actual features."
+        }
+      }
+    },
+    "lusaka-story": {
+      "name": "Lusaka: climate and health",
+      "type": "StorySegmentLayer",
+      "visible": true,
+      "parameters": {
+        "zoom": 5,
+        "extent": [
+          2146239.782494315,
+          -2801003.832602355,
+          4149990.616773239,
+          -712810.7584889357
+        ],
+        "transition": {
+          "type": "smooth",
+          "time": 1
+        },
+        "layerOverride": [],
+        "content": {
+          "contentMode": "map",
+          "markdown": "## Lusaka: archived mapped facilities\n\nThese public map features are from Healthsites/OpenStreetMap. The source extraction date is unknown and this small sample is not a facility census. Presence does not establish current operation, HIV/TB services or PEPFAR support.\n\n\u00a9 OpenStreetMap contributors; extracted by Healthsites.io. ODbL-1.0. See `data/healthsites_provenance.json`.\n\nDo not assign the course's fictional scenario values to these actual features."
+        }
+      }
+    },
+    "lagos-story": {
+      "name": "Lagos: climate and health",
+      "type": "StorySegmentLayer",
+      "visible": true,
+      "parameters": {
+        "zoom": 5,
+        "extent": [
+          -625615.5382581975,
+          -276158.58202625543,
+          1378135.2960207267,
+          1749202.0876557613
+        ],
+        "transition": {
+          "type": "smooth",
+          "time": 1
+        },
+        "layerOverride": [],
+        "content": {
+          "contentMode": "map",
+          "markdown": "## Lagos: archived mapped facilities\n\nThese public map features are from Healthsites/OpenStreetMap. The source extraction date is unknown and this small sample is not a facility census. Presence does not establish current operation, HIV/TB services or PEPFAR support.\n\n\u00a9 OpenStreetMap contributors; extracted by Healthsites.io. ODbL-1.0. See `data/healthsites_provenance.json`.\n\nDo not assign the course's fictional scenario values to these actual features."
+        }
+      }
+    }
+  },
+  "sources": {
+    "land-data": {
+      "name": "Made with Natural Earth v5.1.2",
+      "type": "GeoJSONSource",
+      "parameters": {
+        "path": "../data/natural-earth-land.geojson",
+        "useProxy": false
+      }
+    },
+    "sites-data": {
+      "name": "Archived Healthsites / OpenStreetMap facilities (ODbL)",
+      "type": "GeoJSONSource",
+      "parameters": {
+        "path": "../data/healthsites_facilities.geojson",
+        "useProxy": false
+      }
+    }
+  },
+  "stories": {
+    "climate-health": {
+      "title": "Healthsites: inspect an archived facility map",
+      "storyType": "guided",
+      "storySegments": [
+        "mumbai-story",
+        "beira-story",
+        "mombasa-story",
+        "lusaka-story",
+        "lagos-story"
+      ],
+      "presentationBgColor": "#123e3d",
+      "presentationTextColor": "#F7FBFF",
+      "showGradient": false
+    }
+  },
+  "viewState": {},
+  "metadata": {
+    "title": "Archived Healthsites context",
+    "description": "\u00a9 OpenStreetMap contributors; extracted by Healthsites.io. ODbL-1.0. Non-exhaustive city samples; original extraction date unknown. No real funding or service status inferred. No synthetic impacts attached."
+  }
+}

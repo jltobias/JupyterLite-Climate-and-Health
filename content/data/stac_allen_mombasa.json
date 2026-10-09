@@ -1,0 +1,480 @@
+{
+  "provenance": {
+    "provider": "Allen Coral Atlas Partnership / Arizona State University",
+    "source_url": "https://allencoralatlas.org/geoserver/ows?service=WFS&version=2.0.0&request=GetFeature&typeNames=coral-atlas%3Abenthic_data_verbose&bbox=39.70%2C-4.10%2C39.82%2C-3.99%2CEPSG%3A4326&srsName=EPSG%3A4326&count=8&outputFormat=application%2Fjson",
+    "retrieved_on": "2026-10-09",
+    "data_class": "habitat_classification_subset",
+    "license": "CC-BY-4.0",
+    "license_url": "https://allencoralatlas.org/resources/",
+    "citation": "Allen Coral Atlas (2022). Imagery, maps and monitoring of the world\u2019s tropical coral reefs. doi:10.5281/zenodo.3833242.",
+    "raw_response_sha256": "27dc77d29645d5d21e60aa7fd085b7f4a55f6d13d94f73a0d951c903b1c9df51",
+    "scope": "First eight polygons within a small Mombasa-coast bounding box. Not a representative sample, complete habitat map, bleaching observation or Planet satellite mosaic."
+  },
+  "feature_collection": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "id": "benthic_data_verbose.fid-38187fa_1a120b78d7d_-479f",
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  39.74452244,
+                  -3.99835641
+                ],
+                [
+                  39.74456736,
+                  -3.99835641
+                ],
+                [
+                  39.74456736,
+                  -3.99840133
+                ],
+                [
+                  39.74452244,
+                  -3.99840133
+                ],
+                [
+                  39.74452244,
+                  -3.99835641
+                ]
+              ]
+            ]
+          ]
+        },
+        "geometry_name": "geom",
+        "properties": {
+          "class_name": "Seagrass",
+          "area_sqkm": 2.477381110144779e-05
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "benthic_data_verbose.fid-38187fa_1a120b78d7d_-479e",
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  39.74515126,
+                  -3.99808692
+                ],
+                [
+                  39.74519618,
+                  -3.99808692
+                ],
+                [
+                  39.74519618,
+                  -3.99817675
+                ],
+                [
+                  39.74515126,
+                  -3.99817675
+                ],
+                [
+                  39.74510635,
+                  -3.99817675
+                ],
+                [
+                  39.74510635,
+                  -3.99822167
+                ],
+                [
+                  39.74519618,
+                  -3.99822167
+                ],
+                [
+                  39.74519618,
+                  -3.99826658
+                ],
+                [
+                  39.74515126,
+                  -3.99826658
+                ],
+                [
+                  39.74515126,
+                  -3.99835641
+                ],
+                [
+                  39.74510635,
+                  -3.99835641
+                ],
+                [
+                  39.74506143,
+                  -3.99835641
+                ],
+                [
+                  39.74506143,
+                  -3.99840133
+                ],
+                [
+                  39.74492668,
+                  -3.99840133
+                ],
+                [
+                  39.74492668,
+                  -3.99826658
+                ],
+                [
+                  39.7449716,
+                  -3.99826658
+                ],
+                [
+                  39.7449716,
+                  -3.99817675
+                ],
+                [
+                  39.74501651,
+                  -3.99817675
+                ],
+                [
+                  39.74501651,
+                  -3.99813184
+                ],
+                [
+                  39.74510635,
+                  -3.99813184
+                ],
+                [
+                  39.74515126,
+                  -3.99813184
+                ],
+                [
+                  39.74515126,
+                  -3.99808692
+                ]
+              ]
+            ]
+          ]
+        },
+        "geometry_name": "geom",
+        "properties": {
+          "class_name": "Sand",
+          "area_sqkm": 0.0006441191798481159
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "benthic_data_verbose.fid-38187fa_1a120b78d7d_-479d",
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  39.74501651,
+                  -3.99925473
+                ],
+                [
+                  39.74506143,
+                  -3.99925473
+                ],
+                [
+                  39.74506143,
+                  -3.99929964
+                ],
+                [
+                  39.74501651,
+                  -3.99929964
+                ],
+                [
+                  39.74501651,
+                  -3.99925473
+                ]
+              ]
+            ]
+          ]
+        },
+        "geometry_name": "geom",
+        "properties": {
+          "class_name": "Seagrass",
+          "area_sqkm": 2.4773784671444447e-05
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "benthic_data_verbose.fid-38187fa_1a120b78d7d_-479c",
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  39.7447021,
+                  -3.99943439
+                ],
+                [
+                  39.74474702,
+                  -3.99943439
+                ],
+                [
+                  39.74474702,
+                  -3.99947931
+                ],
+                [
+                  39.7447021,
+                  -3.99947931
+                ],
+                [
+                  39.7447021,
+                  -3.99943439
+                ]
+              ]
+            ]
+          ]
+        },
+        "geometry_name": "geom",
+        "properties": {
+          "class_name": "Coral/Algae",
+          "area_sqkm": 2.477377938153222e-05
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "benthic_data_verbose.fid-38187fa_1a120b78d7d_-479b",
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  39.74420803,
+                  -3.99952422
+                ],
+                [
+                  39.74425295,
+                  -3.99952422
+                ],
+                [
+                  39.74425295,
+                  -3.99956914
+                ],
+                [
+                  39.74420803,
+                  -3.99956914
+                ],
+                [
+                  39.74420803,
+                  -3.99952422
+                ]
+              ]
+            ]
+          ]
+        },
+        "geometry_name": "geom",
+        "properties": {
+          "class_name": "Seagrass",
+          "area_sqkm": 2.4773776739370077e-05
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "benthic_data_verbose.fid-38187fa_1a120b78d7d_-479a",
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  39.74465719,
+                  -3.99943439
+                ],
+                [
+                  39.7447021,
+                  -3.99943439
+                ],
+                [
+                  39.7447021,
+                  -3.99947931
+                ],
+                [
+                  39.74474702,
+                  -3.99947931
+                ],
+                [
+                  39.74474702,
+                  -3.99956914
+                ],
+                [
+                  39.74465719,
+                  -3.99956914
+                ],
+                [
+                  39.74465719,
+                  -3.99943439
+                ]
+              ]
+            ]
+          ]
+        },
+        "geometry_name": "geom",
+        "properties": {
+          "class_name": "Seagrass",
+          "area_sqkm": 0.00012386888966942205
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "benthic_data_verbose.fid-38187fa_1a120b78d7d_-4799",
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  39.74488177,
+                  -3.99925473
+                ],
+                [
+                  39.74501651,
+                  -3.99925473
+                ],
+                [
+                  39.74501651,
+                  -3.99929964
+                ],
+                [
+                  39.74506143,
+                  -3.99929964
+                ],
+                [
+                  39.74506143,
+                  -3.99938948
+                ],
+                [
+                  39.74501651,
+                  -3.99938948
+                ],
+                [
+                  39.74501651,
+                  -3.99943439
+                ],
+                [
+                  39.7449716,
+                  -3.99943439
+                ],
+                [
+                  39.7449716,
+                  -3.99947931
+                ],
+                [
+                  39.74492668,
+                  -3.99947931
+                ],
+                [
+                  39.74492668,
+                  -3.99956914
+                ],
+                [
+                  39.74488177,
+                  -3.99956914
+                ],
+                [
+                  39.74488177,
+                  -3.99952422
+                ],
+                [
+                  39.74483685,
+                  -3.99952422
+                ],
+                [
+                  39.74483685,
+                  -3.99961406
+                ],
+                [
+                  39.74474702,
+                  -3.99961406
+                ],
+                [
+                  39.74474702,
+                  -3.99947931
+                ],
+                [
+                  39.74479194,
+                  -3.99947931
+                ],
+                [
+                  39.74479194,
+                  -3.99943439
+                ],
+                [
+                  39.74483685,
+                  -3.99943439
+                ],
+                [
+                  39.74483685,
+                  -3.99929964
+                ],
+                [
+                  39.74488177,
+                  -3.99929964
+                ],
+                [
+                  39.74488177,
+                  -3.99925473
+                ]
+              ]
+            ]
+          ]
+        },
+        "geometry_name": "geom",
+        "properties": {
+          "class_name": "Sand",
+          "area_sqkm": 0.0007432134125698358
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "benthic_data_verbose.fid-38187fa_1a120b78d7d_-4798",
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  39.74474702,
+                  -4.0008717
+                ],
+                [
+                  39.74479194,
+                  -4.0008717
+                ],
+                [
+                  39.74479194,
+                  -4.00091661
+                ],
+                [
+                  39.74474702,
+                  -4.00091661
+                ],
+                [
+                  39.74474702,
+                  -4.0008717
+                ]
+              ]
+            ]
+          ]
+        },
+        "geometry_name": "geom",
+        "properties": {
+          "class_name": "Seagrass",
+          "area_sqkm": 2.4773737083654852e-05
+        }
+      }
+    ],
+    "totalFeatures": 3359,
+    "numberMatched": 3359,
+    "numberReturned": 8,
+    "timeStamp": "2026-10-09T13:06:30.338Z",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:EPSG::4326"
+      }
+    }
+  }
+}

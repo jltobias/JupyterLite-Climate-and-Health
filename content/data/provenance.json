@@ -1,0 +1,29 @@
+{
+  "observed": {
+    "title": "NASA GISTEMP v4 global land-ocean temperature index",
+    "source_url": "https://data.giss.nasa.gov/gistemp/tabledata_v4/GLB.Ts+dSST.csv",
+    "citation": "GISTEMP Team (2026); Lenssen et al. (2024), doi:10.1029/2023JD040179",
+    "retrieved_on": "2026-10-09",
+    "units": "degrees Celsius anomaly relative to 1951-1980",
+    "transform": "Read J-D annual column; exclude incomplete/non-numeric years. No interpolation.",
+    "license": "US government NASA data; freely available with acknowledgement; no endorsement",
+    "sha256": "c9ce0750ca93a8241c42fe86cd5bf54d07b28b21ae650b0ae49a206907018cd9"
+  },
+  "geography": {
+    "title": "Natural Earth land 1:110m",
+    "version": "5.1.2",
+    "source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_110m_land.geojson",
+    "license": "Public domain",
+    "attribution": "Made with Natural Earth",
+    "sha256": "9e0729ee253ca7d7a5c4ae9395fb1902264c5377c52e224d13dd85010e2835d9",
+    "limitation": "Coarse reference geometry, not a local coastline or boundary adjudication"
+  },
+  "synthetic": {
+    "title": "Original fictional climate-health scenarios",
+    "generator": "scripts/prepare_data.py",
+    "license": "CC0-1.0",
+    "seed": "No randomness; explicit constants and sinusoidal daily series",
+    "reference_period": "Synthetic 2025 daily calendar, one-day service event",
+    "limitation": "Not observations, forecasts, PEPFAR facilities, epidemiologic or causal estimates"
+  }
+}

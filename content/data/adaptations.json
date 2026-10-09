@@ -1,0 +1,42 @@
+{
+  "baseline": {
+    "label": "Current design",
+    "cooling_c": 0,
+    "road_raise_m": 0,
+    "water_add_l": 0,
+    "backup_add_h": 0,
+    "cost_units": 0
+  },
+  "shade": {
+    "label": "Shade + reflective roof",
+    "cooling_c": 2.5,
+    "road_raise_m": 0,
+    "water_add_l": 0,
+    "backup_add_h": 0,
+    "cost_units": 2
+  },
+  "sponge": {
+    "label": "Water harvesting + shade",
+    "cooling_c": 1.5,
+    "road_raise_m": 0,
+    "water_add_l": 1600,
+    "backup_add_h": 0,
+    "cost_units": 3
+  },
+  "engineering": {
+    "label": "Raised access + backup power",
+    "cooling_c": 0,
+    "road_raise_m": 0.8,
+    "water_add_l": 0,
+    "backup_add_h": 12,
+    "cost_units": 5
+  },
+  "combined": {
+    "label": "Combined package",
+    "cooling_c": 2.5,
+    "road_raise_m": 0.8,
+    "water_add_l": 1600,
+    "backup_add_h": 12,
+    "cost_units": 8
+  }
+}

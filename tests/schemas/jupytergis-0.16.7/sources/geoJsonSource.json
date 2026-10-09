@@ -1,0 +1,34 @@
+{
+  "type": "object",
+  "description": "GeoJSONSource",
+  "title": "IGeoJSONSource",
+  "required": [],
+  "additionalProperties": false,
+  "properties": {
+    "path": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "The local path to a GeoJSON file"
+    },
+    "data": {
+      "type": "object",
+      "description": "The GeoJSON data",
+      "$ref": "./geojson.json"
+    },
+    "useProxy": {
+      "type": "boolean",
+      "description": "Route requests through the Jupyter server proxy to avoid CORS issues.",
+      "default": false
+    },
+    "httpHeaders": {
+      "type": "string",
+      "description": "HTTP headers forwarded to the upstream server when useProxy is true.",
+      "default": "",
+      "additionalProperties": {
+        "type": "string"
+      }
+    }
+  }
+}

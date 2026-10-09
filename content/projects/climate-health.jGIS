@@ -1,0 +1,203 @@
+{
+  "schemaVersion": "0.6.0",
+  "options": {
+    "longitude": 45,
+    "latitude": 3,
+    "zoom": 2,
+    "projection": "EPSG:3857",
+    "bearing": 0,
+    "pitch": 0,
+    "extent": [
+      556597.4539663679,
+      -4439106.787250586,
+      9462156.717428254,
+      5311971.846945471
+    ]
+  },
+  "layerTree": [
+    "land",
+    "sites",
+    "mumbai-story",
+    "beira-story",
+    "mombasa-story",
+    "lusaka-story",
+    "lagos-story"
+  ],
+  "layers": {
+    "land": {
+      "name": "Natural Earth land (public domain)",
+      "type": "VectorLayer",
+      "visible": true,
+      "parameters": {
+        "source": "land-data",
+        "opacity": 0.5,
+        "symbologyState": {}
+      }
+    },
+    "sites": {
+      "name": "SYNTHETIC clinic scenarios; city anchors only",
+      "type": "VectorLayer",
+      "visible": true,
+      "parameters": {
+        "source": "sites-data",
+        "opacity": 1,
+        "symbologyState": {}
+      }
+    },
+    "mumbai-story": {
+      "name": "Mumbai: climate and health",
+      "type": "StorySegmentLayer",
+      "visible": true,
+      "parameters": {
+        "zoom": 5,
+        "extent": [
+          7111089.071874315,
+          1127934.0330309474,
+          9114839.90615324,
+          3259063.7085103635
+        ],
+        "transition": {
+          "type": "smooth",
+          "time": 1
+        },
+        "layerOverride": [],
+        "content": {
+          "contentMode": "map",
+          "markdown": "## Mumbai, India\n\nGlobal warming is not a local heat index. India is included alongside African contexts. All facility values are fictional; this point is a city anchor and has no real facility funding status.\n\n**Synthetic teaching scenario.** Not observations, forecasts or PEPFAR facility locations.\n\nExplore the [scenario dashboard](https://jltobias.github.io/JupyterLite-Climate-and-Health/explore/?case=mumbai)."
+        }
+      }
+    },
+    "beira-story": {
+      "name": "Beira: climate and health",
+      "type": "StorySegmentLayer",
+      "visible": true,
+      "parameters": {
+        "zoom": 5,
+        "extent": [
+          2876495.64209819,
+          -3354026.586003257,
+          4880246.476377114,
+          -1212833.8167833053
+        ],
+        "transition": {
+          "type": "smooth",
+          "time": 1
+        },
+        "layerOverride": [],
+        "content": {
+          "contentMode": "map",
+          "markdown": "## Beira, Mozambique\n\nA dry building may be isolated by an access route. Compare an invented road elevation with a water plane; no tide, surge, drainage or hydrologic connectivity is modeled.\n\n**Synthetic teaching scenario.** Not observations, forecasts or PEPFAR facility locations.\n\nExplore the [scenario dashboard](https://jltobias.github.io/JupyterLite-Climate-and-Health/explore/?case=beira)."
+        }
+      }
+    },
+    "mombasa-story": {
+      "name": "Mombasa: climate and health",
+      "type": "StorySegmentLayer",
+      "visible": true,
+      "parameters": {
+        "zoom": 5,
+        "extent": [
+          3414168.7826297004,
+          -1464302.5465990214,
+          5417919.616908625,
+          552835.6048836526
+        ],
+        "transition": {
+          "type": "smooth",
+          "time": 1
+        },
+        "layerOverride": [],
+        "content": {
+          "contentMode": "map",
+          "markdown": "## Mombasa, Kenya\n\nEvaluate appropriate shade, water harvesting, reliable power and access engineering. Mangroves, seagrass and reef health have local ecological context; no universal flood-protection factor is assumed.\n\n**Synthetic teaching scenario.** Not observations, forecasts or PEPFAR facility locations.\n\nExplore the [scenario dashboard](https://jltobias.github.io/JupyterLite-Climate-and-Health/explore/?case=mombasa)."
+        }
+      }
+    },
+    "lusaka-story": {
+      "name": "Lusaka: climate and health",
+      "type": "StorySegmentLayer",
+      "visible": true,
+      "parameters": {
+        "zoom": 5,
+        "extent": [
+          2146239.782494315,
+          -2801003.832602355,
+          4149990.616773239,
+          -712810.7584889357
+        ],
+        "transition": {
+          "type": "smooth",
+          "time": 1
+        },
+        "layerOverride": [],
+        "content": {
+          "contentMode": "map",
+          "markdown": "## Lusaka, Zambia\n\nThis inland case has no marine exposure in the toy model. Identify water and electricity bottlenecks and discuss medicine supply, staffing and referrals for HIV/TB continuity.\n\n**Synthetic teaching scenario.** Not observations, forecasts or PEPFAR facility locations.\n\nExplore the [scenario dashboard](https://jltobias.github.io/JupyterLite-Climate-and-Health/explore/?case=lusaka)."
+        }
+      }
+    },
+    "lagos-story": {
+      "name": "Lagos: climate and health",
+      "type": "StorySegmentLayer",
+      "visible": true,
+      "parameters": {
+        "zoom": 5,
+        "extent": [
+          -625615.5382581975,
+          -276158.58202625543,
+          1378135.2960207267,
+          1749202.0876557613
+        ],
+        "transition": {
+          "type": "smooth",
+          "time": 1
+        },
+        "layerOverride": [],
+        "content": {
+          "contentMode": "map",
+          "markdown": "## Lagos, Nigeria\n\nDiscuss mobility, host communities, food/water access and equity. Climate is not a deterministic cause of conflict. Movement counts are not distinct people and do not establish legal status.\n\n**Synthetic teaching scenario.** Not observations, forecasts or PEPFAR facility locations.\n\nExplore the [scenario dashboard](https://jltobias.github.io/JupyterLite-Climate-and-Health/explore/?case=lagos)."
+        }
+      }
+    }
+  },
+  "sources": {
+    "land-data": {
+      "name": "Made with Natural Earth v5.1.2",
+      "type": "GeoJSONSource",
+      "parameters": {
+        "path": "../data/natural-earth-land.geojson",
+        "useProxy": false
+      }
+    },
+    "sites-data": {
+      "name": "Original fictional scenarios (CC0)",
+      "type": "GeoJSONSource",
+      "parameters": {
+        "path": "../data/study-sites.geojson",
+        "useProxy": false
+      }
+    }
+  },
+  "stories": {
+    "climate-health": {
+      "title": "Climate and health: continuity of care",
+      "storyType": "guided",
+      "storySegments": [
+        "mumbai-story",
+        "beira-story",
+        "mombasa-story",
+        "lusaka-story",
+        "lagos-story"
+      ],
+      "presentationBgColor": "#123e3d",
+      "presentationTextColor": "#F7FBFF",
+      "showGradient": false
+    }
+  },
+  "viewState": {},
+  "metadata": {
+    "title": "Climate & Health learning story",
+    "description": "Original synthetic scenarios; Natural Earth public-domain land. No external tiles. See data/provenance.json and the Book references.",
+    "license": "MIT project configuration; CC BY4 original prose; CC0 scenarios"
+  }
+}

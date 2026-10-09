@@ -1,0 +1,3883 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "node/7067369890",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.87998143954076,
+          19.079720871864964
+        ]
+      },
+      "properties": {
+        "osm_id": "7067369890",
+        "name": "Neelam Nursing Home and Iccu",
+        "amenity": "clinic",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "mumbai",
+        "context_city": "Mumbai",
+        "country": "India",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/7067369890"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7076620106",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8800116982112,
+          19.07965817522924
+        ]
+      },
+      "properties": {
+        "osm_id": "7076620106",
+        "name": "Fauziya Hospital",
+        "amenity": "hospital",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "mumbai",
+        "context_city": "Mumbai",
+        "country": "India",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/7076620106"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7663961411",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.88033062962697,
+          19.080637349157968
+        ]
+      },
+      "properties": {
+        "osm_id": "7663961411",
+        "name": "Agashe Hospital",
+        "amenity": "hospital",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "mumbai",
+        "context_city": "Mumbai",
+        "country": "India",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/7663961411"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7051070836",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8802845291595,
+          19.08129113760549
+        ]
+      },
+      "properties": {
+        "osm_id": "7051070836",
+        "name": "Sharada Nursing Home.",
+        "amenity": "clinic",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "mumbai",
+        "context_city": "Mumbai",
+        "country": "India",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/7051070836"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7663961436",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.88040799459324,
+          19.078366943045353
+        ]
+      },
+      "properties": {
+        "osm_id": "7663961436",
+        "name": "Muskaan Hospital",
+        "amenity": "hospital",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "mumbai",
+        "context_city": "Mumbai",
+        "country": "India",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/7663961436"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7663961443",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.88010096548001,
+          19.07824699801094
+        ]
+      },
+      "properties": {
+        "osm_id": "7663961443",
+        "name": "Habib Hospital",
+        "amenity": "hospital",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "mumbai",
+        "context_city": "Mumbai",
+        "country": "India",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/7663961443"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3289526261",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.88192595725798,
+          19.08114981871799
+        ]
+      },
+      "properties": {
+        "osm_id": "3289526261",
+        "name": "City Medical Centre",
+        "amenity": "pharmacy",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "mumbai",
+        "context_city": "Mumbai",
+        "country": "India",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/3289526261"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7663961417",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.88271846620304,
+          19.079786083071667
+        ]
+      },
+      "properties": {
+        "osm_id": "7663961417",
+        "name": "Buddh Colony BMC Hospital",
+        "amenity": "hospital",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "mumbai",
+        "context_city": "Mumbai",
+        "country": "India",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/7663961417"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7663961467",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.88210574908103,
+          19.081843840300763
+        ]
+      },
+      "properties": {
+        "osm_id": "7663961467",
+        "name": "Masoom Child Hospital",
+        "amenity": "hospital",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "mumbai",
+        "context_city": "Mumbai",
+        "country": "India",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/7663961467"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3289519861",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.88294603487418,
+          19.081305554478973
+        ]
+      },
+      "properties": {
+        "osm_id": "3289519861",
+        "name": "Ritesh Medical",
+        "amenity": "pharmacy",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "mumbai",
+        "context_city": "Mumbai",
+        "country": "India",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/3289519861"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7663961415",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8816975503965,
+          19.08269879442446
+        ]
+      },
+      "properties": {
+        "osm_id": "7663961415",
+        "name": "Subhash Hospital",
+        "amenity": "hospital",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "mumbai",
+        "context_city": "Mumbai",
+        "country": "India",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/7663961415"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4996322798",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.88311568459443,
+          19.081507893621563
+        ]
+      },
+      "properties": {
+        "osm_id": "4996322798",
+        "name": "Kurla Municipal Hospital",
+        "amenity": "hospital",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "mumbai",
+        "context_city": "Mumbai",
+        "country": "India",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/4996322798"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7044829632",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.88194355925464,
+          19.08293248188494
+        ]
+      },
+      "properties": {
+        "osm_id": "7044829632",
+        "name": "Sushila Hospital-Icu and Maternity",
+        "amenity": "hospital",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "mumbai",
+        "context_city": "Mumbai",
+        "country": "India",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/7044829632"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3289562513",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.88338331876275,
+          19.07729011994465
+        ]
+      },
+      "properties": {
+        "osm_id": "3289562513",
+        "name": null,
+        "amenity": "pharmacy",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "mumbai",
+        "context_city": "Mumbai",
+        "country": "India",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/3289562513"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7055228102",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.88465652985482,
+          19.082509195774662
+        ]
+      },
+      "properties": {
+        "osm_id": "7055228102",
+        "name": "Dr Shehnaz Shaikh Clinic",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "osm_type": "node",
+        "case_id": "mumbai",
+        "context_city": "Mumbai",
+        "country": "India",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/7055228102"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7086762794",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.88362597485963,
+          19.084426137030448
+        ]
+      },
+      "properties": {
+        "osm_id": "7086762794",
+        "name": "Suraj Clinic, Mumbai",
+        "amenity": "clinic",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "mumbai",
+        "context_city": "Mumbai",
+        "country": "India",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/7086762794"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8797139771",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.88365346750203,
+          19.084642222494267
+        ]
+      },
+      "properties": {
+        "osm_id": "8797139771",
+        "name": "Sapna Health Care Centre Pvt Ltd",
+        "amenity": "hospital",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "mumbai",
+        "context_city": "Mumbai",
+        "country": "India",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/8797139771"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7045876787",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.87936662694298,
+          19.071103353393255
+        ]
+      },
+      "properties": {
+        "osm_id": "7045876787",
+        "name": "Hamidani Laser Vision Centre",
+        "amenity": "hospital",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "mumbai",
+        "context_city": "Mumbai",
+        "country": "India",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/7045876787"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9215480148",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.87811193985692,
+          19.07084544223261
+        ]
+      },
+      "properties": {
+        "osm_id": "9215480148",
+        "name": "Bhabha Hospital",
+        "amenity": "hospital",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "mumbai",
+        "context_city": "Mumbai",
+        "country": "India",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/9215480148"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11449446312",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.88937436787506,
+          19.084531581372374
+        ]
+      },
+      "properties": {
+        "osm_id": "11449446312",
+        "name": "Grand Medical",
+        "amenity": "pharmacy",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "mumbai",
+        "context_city": "Mumbai",
+        "country": "India",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/11449446312"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7067373861",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.87510602174083,
+          19.070440680128343
+        ]
+      },
+      "properties": {
+        "osm_id": "7067373861",
+        "name": "Despande Nursing Home",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "osm_type": "node",
+        "case_id": "mumbai",
+        "context_city": "Mumbai",
+        "country": "India",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/7067373861"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3532124714",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.87812015412203,
+          19.0693932775078
+        ]
+      },
+      "properties": {
+        "osm_id": "3532124714",
+        "name": "arpan nursing home",
+        "amenity": "hospital",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "mumbai",
+        "context_city": "Mumbai",
+        "country": "India",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/3532124714"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7663961454",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.87106493858283,
+          19.07261192832641
+        ]
+      },
+      "properties": {
+        "osm_id": "7663961454",
+        "name": "Alphine Life Solutions General Hospital",
+        "amenity": "hospital",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "mumbai",
+        "context_city": "Mumbai",
+        "country": "India",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/7663961454"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7064825234",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8778598960285,
+          19.066879377107995
+        ]
+      },
+      "properties": {
+        "osm_id": "7064825234",
+        "name": "Well Care Nursing Home",
+        "amenity": "clinic",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "mumbai",
+        "context_city": "Mumbai",
+        "country": "India",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/7064825234"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11539757869",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.84308882090755,
+          -19.840579330436583
+        ]
+      },
+      "properties": {
+        "osm_id": "11539757869",
+        "name": "Centro de saúde de ponta Gea Beira",
+        "amenity": "hospital",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "beira",
+        "context_city": "Beira",
+        "country": "Mozambique",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/11539757869"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9171328017",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.87367648106351,
+          -19.851251169557088
+        ]
+      },
+      "properties": {
+        "osm_id": "9171328017",
+        "name": "Bệnh viện",
+        "amenity": "hospital",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "beira",
+        "context_city": "Beira",
+        "country": "Mozambique",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/9171328017"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/567924679",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.874024749140375,
+          -19.85081916626754
+        ]
+      },
+      "properties": {
+        "osm_id": "567924679",
+        "name": "Beira Central Hospital",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "osm_type": "node",
+        "case_id": "beira",
+        "context_city": "Beira",
+        "country": "Mozambique",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/567924679"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6360091920",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.87520978261105,
+          -19.849029881397087
+        ]
+      },
+      "properties": {
+        "osm_id": "6360091920",
+        "name": "Hospital Pediatrico",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "osm_type": "node",
+        "case_id": "beira",
+        "context_city": "Beira",
+        "country": "Mozambique",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/6360091920"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6360863884",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.890896682038345,
+          -19.801771705476426
+        ]
+      },
+      "properties": {
+        "osm_id": "6360863884",
+        "name": "Centro de Saude de Manga Mascarenhas",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "osm_type": "node",
+        "case_id": "beira",
+        "context_city": "Beira",
+        "country": "Mozambique",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/6360863884"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6360091924",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.86056307736757,
+          -19.746900246903266
+        ]
+      },
+      "properties": {
+        "osm_id": "6360091924",
+        "name": "Centro de Saúde de Chingussura",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "osm_type": "node",
+        "case_id": "beira",
+        "context_city": "Beira",
+        "country": "Mozambique",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/6360091924"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4979236200",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.81947884368648,
+          -19.724889452988663
+        ]
+      },
+      "properties": {
+        "osm_id": "4979236200",
+        "name": null,
+        "amenity": "hospital",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "beira",
+        "context_city": "Beira",
+        "country": "Mozambique",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/4979236200"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6386099835",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.76001259343167,
+          -19.687157310024702
+        ]
+      },
+      "properties": {
+        "osm_id": "6386099835",
+        "name": "Centro de Saude de Canhandula",
+        "amenity": "clinic",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "beira",
+        "context_city": "Beira",
+        "country": "Mozambique",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/6386099835"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6476264772",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.76580046521104,
+          -19.65060047752374
+        ]
+      },
+      "properties": {
+        "osm_id": "6476264772",
+        "name": "Posto de Saude de Nhamainga",
+        "amenity": "doctors",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "beira",
+        "context_city": "Beira",
+        "country": "Mozambique",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/6476264772"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6482073992",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.75763347403489,
+          -19.630044279085837
+        ]
+      },
+      "properties": {
+        "osm_id": "6482073992",
+        "name": "Posto de Saude de Lusalite",
+        "amenity": "doctors",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "beira",
+        "context_city": "Beira",
+        "country": "Mozambique",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/6482073992"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6476601973",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.717490192804036,
+          -20.025477073645646
+        ]
+      },
+      "properties": {
+        "osm_id": "6476601973",
+        "name": "Centro de Saude de Bura",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "osm_type": "node",
+        "case_id": "beira",
+        "context_city": "Beira",
+        "country": "Mozambique",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/6476601973"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2600249281",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.019811177056283,
+          -29.858839551000187
+        ]
+      },
+      "properties": {
+        "osm_id": "2600249281",
+        "name": "Info-Med",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "osm_type": "node",
+        "case_id": "durban",
+        "context_city": "Durban",
+        "country": "South Africa",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/2600249281"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5451542673",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.020999479469197,
+          -29.858682557953756
+        ]
+      },
+      "properties": {
+        "osm_id": "5451542673",
+        "name": "Clicks West Street",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "osm_type": "node",
+        "case_id": "durban",
+        "context_city": "Durban",
+        "country": "South Africa",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/5451542673"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1932254352",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.022220136028352,
+          -29.858417438356383
+        ]
+      },
+      "properties": {
+        "osm_id": "1932254352",
+        "name": "Sparspot Pharmacy",
+        "amenity": "pharmacy",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "durban",
+        "context_city": "Durban",
+        "country": "South Africa",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/1932254352"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1909586249",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.022985152331017,
+          -29.85894776137016
+        ]
+      },
+      "properties": {
+        "osm_id": "1909586249",
+        "name": "Clicks",
+        "amenity": "pharmacy",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "durban",
+        "context_city": "Durban",
+        "country": "South Africa",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/1909586249"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2567112844",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.018380637641656,
+          -29.863349601640778
+        ]
+      },
+      "properties": {
+        "osm_id": "2567112844",
+        "name": "Myeza Traditional Chemist",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "osm_type": "node",
+        "case_id": "durban",
+        "context_city": "Durban",
+        "country": "South Africa",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/2567112844"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/841771112",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.038286987126526,
+          -29.85859857128395
+        ]
+      },
+      "properties": {
+        "osm_id": "841771112",
+        "name": "Alpha Pharm",
+        "amenity": "pharmacy",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "durban",
+        "context_city": "Durban",
+        "country": "South Africa",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/841771112"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/842084525",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.03413417319919,
+          -29.844411948705698
+        ]
+      },
+      "properties": {
+        "osm_id": "842084525",
+        "name": null,
+        "amenity": "doctors",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "durban",
+        "context_city": "Durban",
+        "country": "South Africa",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/842084525"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7952877947",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.999565779588096,
+          -29.850559404131218
+        ]
+      },
+      "properties": {
+        "osm_id": "7952877947",
+        "name": "Sparksport Pharmacy",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "osm_type": "node",
+        "case_id": "durban",
+        "context_city": "Durban",
+        "country": "South Africa",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/7952877947"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/843735574",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.04511329289005,
+          -29.86907804572664
+        ]
+      },
+      "properties": {
+        "osm_id": "843735574",
+        "name": "Alpha Pharm",
+        "amenity": "pharmacy",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "durban",
+        "context_city": "Durban",
+        "country": "South Africa",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/843735574"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6657000216",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.99928339327016,
+          -29.837793514140856
+        ]
+      },
+      "properties": {
+        "osm_id": "6657000216",
+        "name": "Bloodline Laboratories",
+        "amenity": null,
+        "healthcare": "laboratory",
+        "osm_type": "node",
+        "case_id": "durban",
+        "context_city": "Durban",
+        "country": "South Africa",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/6657000216"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6657000255",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.000109765104042,
+          -29.836121408276767
+        ]
+      },
+      "properties": {
+        "osm_id": "6657000255",
+        "name": "Ridge Road Clinic",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "osm_type": "node",
+        "case_id": "durban",
+        "context_city": "Durban",
+        "country": "South Africa",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/6657000255"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6657000202",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.99715346785476,
+          -29.838194001474477
+        ]
+      },
+      "properties": {
+        "osm_id": "6657000202",
+        "name": "McCord Hospital",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "osm_type": "node",
+        "case_id": "durban",
+        "context_city": "Durban",
+        "country": "South Africa",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/6657000202"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/369820013",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.019938498165487,
+          -29.9089126214636
+        ]
+      },
+      "properties": {
+        "osm_id": "369820013",
+        "name": "Medical Centre",
+        "amenity": "doctors",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "durban",
+        "context_city": "Durban",
+        "country": "South Africa",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/369820013"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/369820015",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.019864737417578,
+          -29.90895872193107
+        ]
+      },
+      "properties": {
+        "osm_id": "369820015",
+        "name": null,
+        "amenity": "pharmacy",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "durban",
+        "context_city": "Durban",
+        "country": "South Africa",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/369820015"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1863000951",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.96116392256056,
+          -29.828735023743178
+        ]
+      },
+      "properties": {
+        "osm_id": "1863000951",
+        "name": "Dis-Chem",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "osm_type": "node",
+        "case_id": "durban",
+        "context_city": "Durban",
+        "country": "South Africa",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/1863000951"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1869036651",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.001497389174432,
+          -29.92976897585413
+        ]
+      },
+      "properties": {
+        "osm_id": "1869036651",
+        "name": "Clicks",
+        "amenity": "pharmacy",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "durban",
+        "context_city": "Durban",
+        "country": "South Africa",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/1869036651"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5451603112",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.038867769197395,
+          -29.784967742856225
+        ]
+      },
+      "properties": {
+        "osm_id": "5451603112",
+        "name": "Kensington Pharmacy",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "osm_type": "node",
+        "case_id": "durban",
+        "context_city": "Durban",
+        "country": "South Africa",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/5451603112"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2579511230",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.038976650119622,
+          -29.784582510586375
+        ]
+      },
+      "properties": {
+        "osm_id": "2579511230",
+        "name": "Broadway Pharmacy",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "osm_type": "node",
+        "case_id": "durban",
+        "context_city": "Durban",
+        "country": "South Africa",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/2579511230"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1424958471",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.9690540594749,
+          -29.923864763258706
+        ]
+      },
+      "properties": {
+        "osm_id": "1424958471",
+        "name": "Ambler McDonald Pharmacy",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "osm_type": "node",
+        "case_id": "durban",
+        "context_city": "Durban",
+        "country": "South Africa",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/1424958471"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1873966443",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.968657260178645,
+          -29.923743812395912
+        ]
+      },
+      "properties": {
+        "osm_id": "1873966443",
+        "name": "Clicks",
+        "amenity": "pharmacy",
+        "healthcare": "clinic;pharmacy",
+        "osm_type": "node",
+        "case_id": "durban",
+        "context_city": "Durban",
+        "country": "South Africa",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/1873966443"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4638827987",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.933315049266554,
+          -29.889168377986152
+        ]
+      },
+      "properties": {
+        "osm_id": "4638827987",
+        "name": "Hillary Pharmacy",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "osm_type": "node",
+        "case_id": "durban",
+        "context_city": "Durban",
+        "country": "South Africa",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/4638827987"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/10019433681",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.963284879339597,
+          -29.924221161781645
+        ]
+      },
+      "properties": {
+        "osm_id": "10019433681",
+        "name": null,
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "osm_type": "node",
+        "case_id": "durban",
+        "context_city": "Durban",
+        "country": "South Africa",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/10019433681"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5265654403",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.02011124918991,
+          -29.778005566442232
+        ]
+      },
+      "properties": {
+        "osm_id": "5265654403",
+        "name": "Red Hill Clinic",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "osm_type": "node",
+        "case_id": "durban",
+        "context_city": "Durban",
+        "country": "South Africa",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/5265654403"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9787006929",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.925840570930603,
+          -29.88037618065229
+        ]
+      },
+      "properties": {
+        "osm_id": "9787006929",
+        "name": "Medwell SA",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "osm_type": "node",
+        "case_id": "durban",
+        "context_city": "Durban",
+        "country": "South Africa",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/9787006929"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6024544107",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.66930124496699,
+          -4.034677078463858
+        ]
+      },
+      "properties": {
+        "osm_id": "6024544107",
+        "name": "Animal Clinic Tudor",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "osm_type": "node",
+        "case_id": "mombasa",
+        "context_city": "Mombasa",
+        "country": "Kenya",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/6024544107"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6022279679",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.66478105222359,
+          -4.037185782083696
+        ]
+      },
+      "properties": {
+        "osm_id": "6022279679",
+        "name": "Microbiology and Chemistry Laboratories",
+        "amenity": null,
+        "healthcare": "laboratory",
+        "osm_type": "node",
+        "case_id": "mombasa",
+        "context_city": "Mombasa",
+        "country": "Kenya",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/6022279679"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7844468586",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.67264436704775,
+          -4.049197803702612
+        ]
+      },
+      "properties": {
+        "osm_id": "7844468586",
+        "name": "Blood Bank",
+        "amenity": "hospital",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "mombasa",
+        "context_city": "Mombasa",
+        "country": "Kenya",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/7844468586"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2377339631",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.661260485252654,
+          -4.046029360483999
+        ]
+      },
+      "properties": {
+        "osm_id": "2377339631",
+        "name": "Citadel Pharmaceutical Ltd.",
+        "amenity": "pharmacy",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "mombasa",
+        "context_city": "Mombasa",
+        "country": "Kenya",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/2377339631"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2377333434",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.664838552079345,
+          -4.050913746920315
+        ]
+      },
+      "properties": {
+        "osm_id": "2377333434",
+        "name": "Makupa Chemist",
+        "amenity": "pharmacy",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "mombasa",
+        "context_city": "Mombasa",
+        "country": "Kenya",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/2377333434"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1795791432",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.682043497990406,
+          -4.036828964465599
+        ]
+      },
+      "properties": {
+        "osm_id": "1795791432",
+        "name": "Jocham",
+        "amenity": "hospital",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "mombasa",
+        "context_city": "Mombasa",
+        "country": "Kenya",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/1795791432"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3848663084",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6854075748291,
+          -4.0482213119829
+        ]
+      },
+      "properties": {
+        "osm_id": "3848663084",
+        "name": "Plasma Medical Center",
+        "amenity": "hospital",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "mombasa",
+        "context_city": "Mombasa",
+        "country": "Kenya",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/3848663084"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11773404435",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.680811358223906,
+          -4.023313313236372
+        ]
+      },
+      "properties": {
+        "osm_id": "11773404435",
+        "name": "Wauguzi Healthcare",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "osm_type": "node",
+        "case_id": "mombasa",
+        "context_city": "Mombasa",
+        "country": "Kenya",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/11773404435"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7838188789",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.68628775848134,
+          -4.028109438232264
+        ]
+      },
+      "properties": {
+        "osm_id": "7838188789",
+        "name": "Mlaleo Dispensary",
+        "amenity": "clinic",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "mombasa",
+        "context_city": "Mombasa",
+        "country": "Kenya",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/7838188789"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7838188986",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.686916652676445,
+          -4.028441445416945
+        ]
+      },
+      "properties": {
+        "osm_id": "7838188986",
+        "name": "SayidaFatma",
+        "amenity": "hospital",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "mombasa",
+        "context_city": "Mombasa",
+        "country": "Kenya",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/7838188986"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1320398144",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.67220993300626,
+          -4.060722082375889
+        ]
+      },
+      "properties": {
+        "osm_id": "1320398144",
+        "name": null,
+        "amenity": "pharmacy",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "mombasa",
+        "context_city": "Mombasa",
+        "country": "Kenya",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/1320398144"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2380397562",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.67240565044537,
+          -4.063134142652132
+        ]
+      },
+      "properties": {
+        "osm_id": "2380397562",
+        "name": "Palmland Chemist",
+        "amenity": "pharmacy",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "mombasa",
+        "context_city": "Mombasa",
+        "country": "Kenya",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/2380397562"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12172534981",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.67042441999226,
+          -4.067152846128664
+        ]
+      },
+      "properties": {
+        "osm_id": "12172534981",
+        "name": "Dove Pharmacy",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "osm_type": "node",
+        "case_id": "mombasa",
+        "context_city": "Mombasa",
+        "country": "Kenya",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/12172534981"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4107841600",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.671563436814495,
+          -4.067497677625227
+        ]
+      },
+      "properties": {
+        "osm_id": "4107841600",
+        "name": "Pandya Memorial Hospital",
+        "amenity": "hospital",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "mombasa",
+        "context_city": "Mombasa",
+        "country": "Kenya",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/4107841600"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6038796194",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.69725371858422,
+          -4.046161207820916
+        ]
+      },
+      "properties": {
+        "osm_id": "6038796194",
+        "name": "Bomu Hospital Nyali",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "osm_type": "node",
+        "case_id": "mombasa",
+        "context_city": "Mombasa",
+        "country": "Kenya",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/6038796194"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3848642520",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.70048452316246,
+          -4.043919635455239
+        ]
+      },
+      "properties": {
+        "osm_id": "3848642520",
+        "name": null,
+        "amenity": "pharmacy",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "mombasa",
+        "context_city": "Mombasa",
+        "country": "Kenya",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/3848642520"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3848634103",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.70860248020503,
+          -4.034773218893264
+        ]
+      },
+      "properties": {
+        "osm_id": "3848634103",
+        "name": null,
+        "amenity": "pharmacy",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "mombasa",
+        "context_city": "Mombasa",
+        "country": "Kenya",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/3848634103"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3848602473",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.711666317272034,
+          -4.032071647681391
+        ]
+      },
+      "properties": {
+        "osm_id": "3848602473",
+        "name": "Gertrude's Children's Hospital Mombasa",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "osm_type": "node",
+        "case_id": "mombasa",
+        "context_city": "Mombasa",
+        "country": "Kenya",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/3848602473"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/10034311017",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.70089473350376,
+          -4.002310024083215
+        ]
+      },
+      "properties": {
+        "osm_id": "10034311017",
+        "name": "Nairobi Home Hospital",
+        "amenity": "doctors",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "mombasa",
+        "context_city": "Mombasa",
+        "country": "Kenya",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/10034311017"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/10032087317",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.71067415139339,
+          -3.989265854907501
+        ]
+      },
+      "properties": {
+        "osm_id": "10032087317",
+        "name": "Hospital",
+        "amenity": "doctors",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "mombasa",
+        "context_city": "Mombasa",
+        "country": "Kenya",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/10032087317"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7598450585",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.590522838343304,
+          -4.015287640947719
+        ]
+      },
+      "properties": {
+        "osm_id": "7598450585",
+        "name": "Miritini Sheikh Said & Juma",
+        "amenity": "hospital",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "mombasa",
+        "context_city": "Mombasa",
+        "country": "Kenya",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/7598450585"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1491229610",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.632354318692336,
+          -4.128152733207145
+        ]
+      },
+      "properties": {
+        "osm_id": "1491229610",
+        "name": "Ngombeni Dispensary",
+        "amenity": "hospital",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "mombasa",
+        "context_city": "Mombasa",
+        "country": "Kenya",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/1491229610"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5066987922",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.74712377935276,
+          -3.955134829003981
+        ]
+      },
+      "properties": {
+        "osm_id": "5066987922",
+        "name": "BCL Health Care Support",
+        "amenity": "clinic",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "mombasa",
+        "context_city": "Mombasa",
+        "country": "Kenya",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/5066987922"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7052733539",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.66357975786076,
+          -3.913197149941738
+        ]
+      },
+      "properties": {
+        "osm_id": "7052733539",
+        "name": "Lower Ribe Medical Clinic",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "osm_type": "node",
+        "case_id": "mombasa",
+        "context_city": "Mombasa",
+        "country": "Kenya",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/7052733539"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11506565669",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.29184074206077,
+          -15.390583182083276
+        ]
+      },
+      "properties": {
+        "osm_id": "11506565669",
+        "name": "Upfront Pharmacy",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "osm_type": "node",
+        "case_id": "lusaka",
+        "context_city": "Lusaka",
+        "country": "Zambia",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/11506565669"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11495523969",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.29370018346077,
+          -15.389277281568837
+        ]
+      },
+      "properties": {
+        "osm_id": "11495523969",
+        "name": "Ever Olive Green Pharmacy",
+        "amenity": "clinic",
+        "healthcare": "pharmacy",
+        "osm_type": "node",
+        "case_id": "lusaka",
+        "context_city": "Lusaka",
+        "country": "Zambia",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/11495523969"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4434365191",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.263444027575332,
+          -15.381657712488959
+        ]
+      },
+      "properties": {
+        "osm_id": "4434365191",
+        "name": "matero clinic",
+        "amenity": "clinic",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "lusaka",
+        "context_city": "Lusaka",
+        "country": "Zambia",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/4434365191"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4514854691",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.28592395661059,
+          -15.407893069422045
+        ]
+      },
+      "properties": {
+        "osm_id": "4514854691",
+        "name": null,
+        "amenity": "clinic",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "lusaka",
+        "context_city": "Lusaka",
+        "country": "Zambia",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/4514854691"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/10970172726",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.290832818204137,
+          -15.406283073460486
+        ]
+      },
+      "properties": {
+        "osm_id": "10970172726",
+        "name": "HealthCure Pharmacy",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "osm_type": "node",
+        "case_id": "lusaka",
+        "context_city": "Lusaka",
+        "country": "Zambia",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/10970172726"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1151208402",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.2990217699666,
+          -15.397473441768028
+        ]
+      },
+      "properties": {
+        "osm_id": "1151208402",
+        "name": "Coptic Hospital",
+        "amenity": "hospital",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "lusaka",
+        "context_city": "Lusaka",
+        "country": "Zambia",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/1151208402"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5148061921",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.281138392812693,
+          -15.409911347887203
+        ]
+      },
+      "properties": {
+        "osm_id": "5148061921",
+        "name": "Corp Med Clinic",
+        "amenity": "clinic",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "lusaka",
+        "context_city": "Lusaka",
+        "country": "Zambia",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/5148061921"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7557175179",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.265090484815715,
+          -15.372981772152116
+        ]
+      },
+      "properties": {
+        "osm_id": "7557175179",
+        "name": "Chingwele Clinic",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "osm_type": "node",
+        "case_id": "lusaka",
+        "context_city": "Lusaka",
+        "country": "Zambia",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/7557175179"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7557175178",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.264427979188866,
+          -15.372817905945084
+        ]
+      },
+      "properties": {
+        "osm_id": "7557175178",
+        "name": "Matero Level 1 Hospital",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "osm_type": "node",
+        "case_id": "lusaka",
+        "context_city": "Lusaka",
+        "country": "Zambia",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/7557175178"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4427485792",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.29493022775148,
+          -15.408521460702985
+        ]
+      },
+      "properties": {
+        "osm_id": "4427485792",
+        "name": "Advanced Diagnostic Centre",
+        "amenity": "clinic",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "lusaka",
+        "context_city": "Lusaka",
+        "country": "Zambia",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/4427485792"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4470129734",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.285734525598855,
+          -15.413131758905507
+        ]
+      },
+      "properties": {
+        "osm_id": "4470129734",
+        "name": "Link Pharmacy",
+        "amenity": "pharmacy",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "lusaka",
+        "context_city": "Lusaka",
+        "country": "Zambia",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/4470129734"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4979868021",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.293624662513167,
+          -15.4099992740515
+        ]
+      },
+      "properties": {
+        "osm_id": "4979868021",
+        "name": null,
+        "amenity": "clinic",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "lusaka",
+        "context_city": "Lusaka",
+        "country": "Zambia",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/4979868021"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4371576961",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.29429814843317,
+          -15.37027424978902
+        ]
+      },
+      "properties": {
+        "osm_id": "4371576961",
+        "name": "Chipata First Level Hospital",
+        "amenity": "clinic",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "lusaka",
+        "context_city": "Lusaka",
+        "country": "Zambia",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/4371576961"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4470157590",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.292924857417233,
+          -15.414212018586511
+        ]
+      },
+      "properties": {
+        "osm_id": "4470157590",
+        "name": "Dr Agarwal's Eye Hospital",
+        "amenity": "clinic",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "lusaka",
+        "context_city": "Lusaka",
+        "country": "Zambia",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/4470157590"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4952406124",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.302672256436722,
+          -15.406586079260222
+        ]
+      },
+      "properties": {
+        "osm_id": "4952406124",
+        "name": null,
+        "amenity": "clinic",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "lusaka",
+        "context_city": "Lusaka",
+        "country": "Zambia",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/4952406124"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5344304221",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.27952579846115,
+          -15.420065939762878
+        ]
+      },
+      "properties": {
+        "osm_id": "5344304221",
+        "name": "Lusaka Chemist",
+        "amenity": "pharmacy",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "lusaka",
+        "context_city": "Lusaka",
+        "country": "Zambia",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/5344304221"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4471448466",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.287158275671914,
+          -15.42045184258501
+        ]
+      },
+      "properties": {
+        "osm_id": "4471448466",
+        "name": "Yashfin Chemist",
+        "amenity": "pharmacy",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "lusaka",
+        "context_city": "Lusaka",
+        "country": "Zambia",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/4471448466"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5610060021",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.318059083730418,
+          -15.38816064442807
+        ]
+      },
+      "properties": {
+        "osm_id": "5610060021",
+        "name": null,
+        "amenity": "doctors",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "lusaka",
+        "context_city": "Lusaka",
+        "country": "Zambia",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/5610060021"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4715254408",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.24032682244183,
+          -15.380018547504335
+        ]
+      },
+      "properties": {
+        "osm_id": "4715254408",
+        "name": "Vinny Focal Point",
+        "amenity": "pharmacy",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "lusaka",
+        "context_city": "Lusaka",
+        "country": "Zambia",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/4715254408"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7557045997",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.289685335659698,
+          -15.428505761887322
+        ]
+      },
+      "properties": {
+        "osm_id": "7557045997",
+        "name": "Kamwala Clinic",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "osm_type": "node",
+        "case_id": "lusaka",
+        "context_city": "Lusaka",
+        "country": "Zambia",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/7557045997"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2049940980",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.28960369592278,
+          -15.429821301590408
+        ]
+      },
+      "properties": {
+        "osm_id": "2049940980",
+        "name": "Kamwala Clinic",
+        "amenity": "hospital",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "lusaka",
+        "context_city": "Lusaka",
+        "country": "Zambia",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/2049940980"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6886208085",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.32317539742752,
+          -15.390616961153057
+        ]
+      },
+      "properties": {
+        "osm_id": "6886208085",
+        "name": "Bliss Pharmacy Ltd",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "osm_type": "node",
+        "case_id": "lusaka",
+        "context_city": "Lusaka",
+        "country": "Zambia",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/6886208085"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4771006699",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.261274371938867,
+          -15.427843842993724
+        ]
+      },
+      "properties": {
+        "osm_id": "4771006699",
+        "name": null,
+        "amenity": "clinic",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "lusaka",
+        "context_city": "Lusaka",
+        "country": "Zambia",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/4771006699"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11515738070",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.31314083440529,
+          -15.417421700768728
+        ]
+      },
+      "properties": {
+        "osm_id": "11515738070",
+        "name": "Pharmacy Direct",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "osm_type": "node",
+        "case_id": "lusaka",
+        "context_city": "Lusaka",
+        "country": "Zambia",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/11515738070"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8963716779",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.57976717667904,
+          0.349236564364617
+        ]
+      },
+      "properties": {
+        "osm_id": "8963716779",
+        "name": "Hope clinic",
+        "amenity": "clinic",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "kampala",
+        "context_city": "Kampala",
+        "country": "Uganda",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/8963716779"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8498974217",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.580038750341856,
+          0.352665517133858
+        ]
+      },
+      "properties": {
+        "osm_id": "8498974217",
+        "name": "Busy bee dental clinic",
+        "amenity": "clinic",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "kampala",
+        "context_city": "Kampala",
+        "country": "Uganda",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/8498974217"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8963738622",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.58236665631023,
+          0.347461696367617
+        ]
+      },
+      "properties": {
+        "osm_id": "8963738622",
+        "name": "Cure Health Clinic",
+        "amenity": "clinic",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "kampala",
+        "context_city": "Kampala",
+        "country": "Uganda",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/8963738622"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8481722917",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.57843923175926,
+          0.353873433200192
+        ]
+      },
+      "properties": {
+        "osm_id": "8481722917",
+        "name": "Devic medical clinic",
+        "amenity": "clinic",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "kampala",
+        "context_city": "Kampala",
+        "country": "Uganda",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/8481722917"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8963716766",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.58479891697314,
+          0.351948026222203
+        ]
+      },
+      "properties": {
+        "osm_id": "8963716766",
+        "name": "Aduly Drug Shop",
+        "amenity": "pharmacy",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "kampala",
+        "context_city": "Kampala",
+        "country": "Uganda",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/8963716766"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8963716784",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.58523234518623,
+          0.349945421916004
+        ]
+      },
+      "properties": {
+        "osm_id": "8963716784",
+        "name": "Viva Medical Care",
+        "amenity": "clinic",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "kampala",
+        "context_city": "Kampala",
+        "country": "Uganda",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/8963716784"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8963738639",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.57635146731681,
+          0.34579403291221
+        ]
+      },
+      "properties": {
+        "osm_id": "8963738639",
+        "name": "Allied Consultancy",
+        "amenity": "clinic",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "kampala",
+        "context_city": "Kampala",
+        "country": "Uganda",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/8963738639"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8963738640",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.57708614112997,
+          0.345231942485412
+        ]
+      },
+      "properties": {
+        "osm_id": "8963738640",
+        "name": "Pulse Medical Clinic",
+        "amenity": "clinic",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "kampala",
+        "context_city": "Kampala",
+        "country": "Uganda",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/8963738640"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8963716781",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.585555383734544,
+          0.351057616648092
+        ]
+      },
+      "properties": {
+        "osm_id": "8963716781",
+        "name": "Life Referral Medical Center",
+        "amenity": "clinic",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "kampala",
+        "context_city": "Kampala",
+        "country": "Uganda",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/8963716781"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4099179277",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.576409218629664,
+          0.34537016006874
+        ]
+      },
+      "properties": {
+        "osm_id": "4099179277",
+        "name": "The Allied Consultance clinic",
+        "amenity": "clinic",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "kampala",
+        "context_city": "Kampala",
+        "country": "Uganda",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/4099179277"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8963738623",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.58157666193614,
+          0.344179929818097
+        ]
+      },
+      "properties": {
+        "osm_id": "8963738623",
+        "name": "Giant Health Care",
+        "amenity": "clinic",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "kampala",
+        "context_city": "Kampala",
+        "country": "Uganda",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/8963738623"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8963716778",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.58594497459404,
+          0.348884943526485
+        ]
+      },
+      "properties": {
+        "osm_id": "8963716778",
+        "name": "Hope Clinic",
+        "amenity": "clinic",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "kampala",
+        "context_city": "Kampala",
+        "country": "Uganda",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/8963716778"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8963716775",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.58608662875767,
+          0.348801627408932
+        ]
+      },
+      "properties": {
+        "osm_id": "8963716775",
+        "name": "St Peter's Medical Clinic",
+        "amenity": "clinic",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "kampala",
+        "context_city": "Kampala",
+        "country": "Uganda",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/8963716775"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8963716783",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.58612292239843,
+          0.348931966003278
+        ]
+      },
+      "properties": {
+        "osm_id": "8963716783",
+        "name": "Kyebando drag shop",
+        "amenity": "pharmacy",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "kampala",
+        "context_city": "Kampala",
+        "country": "Uganda",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/8963716783"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8963738638",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.57656989971349,
+          0.344815026621546
+        ]
+      },
+      "properties": {
+        "osm_id": "8963738638",
+        "name": "Nuwa Clinic and Diagnostic Centre",
+        "amenity": "clinic",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "kampala",
+        "context_city": "Kampala",
+        "country": "Uganda",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/8963738638"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8963716782",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.58615837784885,
+          0.349143273782289
+        ]
+      },
+      "properties": {
+        "osm_id": "8963716782",
+        "name": "Healing Hands Medical Center",
+        "amenity": "clinic",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "kampala",
+        "context_city": "Kampala",
+        "country": "Uganda",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/8963716782"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8963716785",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.58613943474768,
+          0.348830628793934
+        ]
+      },
+      "properties": {
+        "osm_id": "8963716785",
+        "name": "St.Peter's Medical Clinic",
+        "amenity": "clinic",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "kampala",
+        "context_city": "Kampala",
+        "country": "Uganda",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/8963716785"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8686698617",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.58628569895805,
+          0.350961224761591
+        ]
+      },
+      "properties": {
+        "osm_id": "8686698617",
+        "name": "Life Referral Medical Centre",
+        "amenity": "clinic",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "kampala",
+        "context_city": "Kampala",
+        "country": "Uganda",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/8686698617"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8963738635",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.573871262167756,
+          0.34748189675426
+        ]
+      },
+      "properties": {
+        "osm_id": "8963738635",
+        "name": "Kirabo medical center",
+        "amenity": "clinic",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "kampala",
+        "context_city": "Kampala",
+        "country": "Uganda",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/8963738635"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8963716767",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.58630656989695,
+          0.352386232120125
+        ]
+      },
+      "properties": {
+        "osm_id": "8963716767",
+        "name": "JB Clinic",
+        "amenity": "clinic",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "kampala",
+        "context_city": "Kampala",
+        "country": "Uganda",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/8963716767"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4123360424",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.58632526154102,
+          0.352376341474383
+        ]
+      },
+      "properties": {
+        "osm_id": "4123360424",
+        "name": "JB Orth Clinic",
+        "amenity": "doctors",
+        "healthcare": "doctor",
+        "osm_type": "node",
+        "case_id": "kampala",
+        "context_city": "Kampala",
+        "country": "Uganda",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/4123360424"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8963716777",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.58669884296546,
+          0.349041517477758
+        ]
+      },
+      "properties": {
+        "osm_id": "8963716777",
+        "name": "Nabuto Health Care",
+        "amenity": "clinic",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "kampala",
+        "context_city": "Kampala",
+        "country": "Uganda",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/8963716777"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8963716772",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.584681654147744,
+          0.354911699546307
+        ]
+      },
+      "properties": {
+        "osm_id": "8963716772",
+        "name": "Family Health Clinic",
+        "amenity": "clinic",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "kampala",
+        "context_city": "Kampala",
+        "country": "Uganda",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/8963716772"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8963716776",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.58672273138953,
+          0.348911933254698
+        ]
+      },
+      "properties": {
+        "osm_id": "8963716776",
+        "name": "Alpher and Omega Medical Clinic",
+        "amenity": "clinic",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "kampala",
+        "context_city": "Kampala",
+        "country": "Uganda",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/8963716776"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11926103974",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.367094952978078,
+          6.520312947397713
+        ]
+      },
+      "properties": {
+        "osm_id": "11926103974",
+        "name": "Jag-Bon Medical Center",
+        "amenity": "hospital",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "lagos",
+        "context_city": "Lagos",
+        "country": "Nigeria",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/11926103974"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8957031048",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.374250918993425,
+          6.506368561821148
+        ]
+      },
+      "properties": {
+        "osm_id": "8957031048",
+        "name": "HealthPlus Pharmacy",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "osm_type": "node",
+        "case_id": "lagos",
+        "context_city": "Lagos",
+        "country": "Nigeria",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/8957031048"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5781786543",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.374232897901607,
+          6.506278624000117
+        ]
+      },
+      "properties": {
+        "osm_id": "5781786543",
+        "name": null,
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "osm_type": "node",
+        "case_id": "lagos",
+        "context_city": "Lagos",
+        "country": "Nigeria",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/5781786543"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11926103975",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.364874083913236,
+          6.521125740548456
+        ]
+      },
+      "properties": {
+        "osm_id": "11926103975",
+        "name": "Bm Hospital",
+        "amenity": "hospital",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "lagos",
+        "context_city": "Lagos",
+        "country": "Nigeria",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/11926103975"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11926103973",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.365767259515394,
+          6.527145623407677
+        ]
+      },
+      "properties": {
+        "osm_id": "11926103973",
+        "name": "Kajla Primary Health Center",
+        "amenity": "hospital",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "lagos",
+        "context_city": "Lagos",
+        "country": "Nigeria",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/11926103973"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11926103970",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.365869183457988,
+          6.530781776823375
+        ]
+      },
+      "properties": {
+        "osm_id": "11926103970",
+        "name": "Legus Specialist Hospital",
+        "amenity": "hospital",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "lagos",
+        "context_city": "Lagos",
+        "country": "Nigeria",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/11926103970"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8839282653",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.396151993795513,
+          6.528280784554454
+        ]
+      },
+      "properties": {
+        "osm_id": "8839282653",
+        "name": "Akwukwe Patent Medicine store",
+        "amenity": null,
+        "healthcare": "pharmacy",
+        "osm_type": "node",
+        "case_id": "lagos",
+        "context_city": "Lagos",
+        "country": "Nigeria",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/8839282653"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8839282652",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.396879040076783,
+          6.529091985143594
+        ]
+      },
+      "properties": {
+        "osm_id": "8839282652",
+        "name": "Uche Kendu Medicine store",
+        "amenity": null,
+        "healthcare": "pharmacy",
+        "osm_type": "node",
+        "case_id": "lagos",
+        "context_city": "Lagos",
+        "country": "Nigeria",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/8839282652"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11926103969",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.364636624596329,
+          6.532605846591991
+        ]
+      },
+      "properties": {
+        "osm_id": "11926103969",
+        "name": "Kayode Health Center Onipanu",
+        "amenity": "hospital",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "lagos",
+        "context_city": "Lagos",
+        "country": "Nigeria",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/11926103969"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8839228502",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.396413676812585,
+          6.531731194995842
+        ]
+      },
+      "properties": {
+        "osm_id": "8839228502",
+        "name": "Shalom Health Center",
+        "amenity": null,
+        "healthcare": "clinic",
+        "osm_type": "node",
+        "case_id": "lagos",
+        "context_city": "Lagos",
+        "country": "Nigeria",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/8839228502"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11925925663",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.36022782734608,
+          6.515321691695959
+        ]
+      },
+      "properties": {
+        "osm_id": "11925925663",
+        "name": "VNusamin Clinic",
+        "amenity": "hospital",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "lagos",
+        "context_city": "Lagos",
+        "country": "Nigeria",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/11925925663"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11925925662",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.359658863758654,
+          6.515724777419564
+        ]
+      },
+      "properties": {
+        "osm_id": "11925925662",
+        "name": "St Claire Specialist Clinic",
+        "amenity": "hospital",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "lagos",
+        "context_city": "Lagos",
+        "country": "Nigeria",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/11925925662"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8839228501",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.396190047635912,
+          6.53502846806623
+        ]
+      },
+      "properties": {
+        "osm_id": "8839228501",
+        "name": "Asogbon Pry Healthcare Centre",
+        "amenity": null,
+        "healthcare": "clinic",
+        "osm_type": "node",
+        "case_id": "lagos",
+        "context_city": "Lagos",
+        "country": "Nigeria",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/8839228501"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11926103972",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.358718498041611,
+          6.528142231695
+        ]
+      },
+      "properties": {
+        "osm_id": "11926103972",
+        "name": "Continental Hospital And Maternity Home",
+        "amenity": "hospital",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "lagos",
+        "context_city": "Lagos",
+        "country": "Nigeria",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/11926103972"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11926103971",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.358576257144762,
+          6.528808425359216
+        ]
+      },
+      "properties": {
+        "osm_id": "11926103971",
+        "name": "Redeemtion Medical Clinic",
+        "amenity": "hospital",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "lagos",
+        "context_city": "Lagos",
+        "country": "Nigeria",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/11926103971"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11925925664",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.356140140806417,
+          6.514704783622392
+        ]
+      },
+      "properties": {
+        "osm_id": "11925925664",
+        "name": "A Aand A Medical Diagostic Center",
+        "amenity": "hospital",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "lagos",
+        "context_city": "Lagos",
+        "country": "Nigeria",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/11925925664"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11926018052",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.366691280521252,
+          6.540537557746063
+        ]
+      },
+      "properties": {
+        "osm_id": "11926018052",
+        "name": "Ultima Medical Hospital",
+        "amenity": "hospital",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "lagos",
+        "context_city": "Lagos",
+        "country": "Nigeria",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/11926018052"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11926018056",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.363779742634875,
+          6.538806778559746
+        ]
+      },
+      "properties": {
+        "osm_id": "11926018056",
+        "name": "Omo Medical Health Center",
+        "amenity": "hospital",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "lagos",
+        "context_city": "Lagos",
+        "country": "Nigeria",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/11926018056"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11926018053",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.356712121878985,
+          6.528957623235726
+        ]
+      },
+      "properties": {
+        "osm_id": "11926018053",
+        "name": "Tolajide Health Centre",
+        "amenity": "hospital",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "lagos",
+        "context_city": "Lagos",
+        "country": "Nigeria",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/11926018053"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11926018054",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.364005048192183,
+          6.539225119347151
+        ]
+      },
+      "properties": {
+        "osm_id": "11926018054",
+        "name": "Mojide Specialist Hospital",
+        "amenity": "hospital",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "lagos",
+        "context_city": "Lagos",
+        "country": "Nigeria",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/11926018054"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11926018055",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.363447148716972,
+          6.538961340854286
+        ]
+      },
+      "properties": {
+        "osm_id": "11926018055",
+        "name": "Fafty Clinic",
+        "amenity": "hospital",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "lagos",
+        "context_city": "Lagos",
+        "country": "Nigeria",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/11926018055"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11926018050",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.355556089793282,
+          6.527286858476145
+        ]
+      },
+      "properties": {
+        "osm_id": "11926018050",
+        "name": "Regina Mundi Catholic Hospital",
+        "amenity": "hospital",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "lagos",
+        "context_city": "Lagos",
+        "country": "Nigeria",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/11926018050"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11925925652",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.354850165908005,
+          6.525535292169963
+        ]
+      },
+      "properties": {
+        "osm_id": "11925925652",
+        "name": "Alhameed Conval Hospital",
+        "amenity": "hospital",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "lagos",
+        "context_city": "Lagos",
+        "country": "Nigeria",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/11925925652"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11925925653",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.354694430147049,
+          6.52492643072344
+        ]
+      },
+      "properties": {
+        "osm_id": "11925925653",
+        "name": "Health Center Mushin",
+        "amenity": "hospital",
+        "healthcare": null,
+        "osm_type": "node",
+        "case_id": "lagos",
+        "context_city": "Lagos",
+        "country": "Nigeria",
+        "data_type": "archived_osm",
+        "source": "Healthsites.io / OpenStreetMap",
+        "license": "ODbL-1.0",
+        "osm_url": "https://www.openstreetmap.org/node/11925925653"
+      }
+    }
+  ],
+  "attribution": "© OpenStreetMap contributors; Healthsites.io extract; ODbL 1.0",
+  "license": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "source_id": "healthsites-legacy-subset"
+}

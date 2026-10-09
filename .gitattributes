@@ -1,0 +1,7 @@
+* text=auto eol=lf
+# Preserve exact observational snapshot bytes and their published SHA-256 values.
+content/data/** -text whitespace=cr-at-eol
+content/data/healthsites_ODbL-1.0.txt -whitespace
+assets/*.png binary
+web/vendor/** -text -whitespace
+web/stac/vendor/** -text -whitespace

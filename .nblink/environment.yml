@@ -1,0 +1,11 @@
+name: climate-health
+channels:
+  - https://prefix.dev/emscripten-forge-4x
+  - https://prefix.dev/conda-forge
+dependencies:
+  - xeus-python
+  - jupytergis-lite=0.16.7
+  - numpy
+  - pandas
+  - matplotlib
+  - ipywidgets

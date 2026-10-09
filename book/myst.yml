@@ -1,0 +1,37 @@
+version: 1
+project:
+  title: Climate & Health
+  description: A field guide for public-health students and practitioners
+  authors:
+    - name: James L. Tobias and contributors
+  github: https://github.com/jltobias/JupyterLite-Climate-and-Health
+  license: CC-BY-4.0
+  bibliography:
+    - references.bib
+  toc:
+    - file: index.md
+    - file: start.md
+    - title: Foundations and practice
+      children:
+        - pattern: notebooks/*.ipynb
+    - title: Reference desk
+      children:
+        - file: data-and-methods.md
+        - file: evidence-library.md
+        - file: migration.md
+        - file: story-authoring.md
+        - file: teaching-guide.md
+        - file: references.md
+site:
+  template: book-theme
+  title: Climate & Health
+  nav:
+    - title: Learning hub
+      url: https://jltobias.github.io/JupyterLite-Climate-and-Health/
+    - title: Explorer
+      url: https://jltobias.github.io/JupyterLite-Climate-and-Health/explore/
+  actions:
+    - title: Open Python Lab
+      url: https://jltobias.github.io/JupyterLite-Climate-and-Health/lite/lab/index.html?path=notebooks/00_start_here.ipynb
+  options:
+    folders: true
