@@ -1,0 +1,16 @@
+.venv/
+.tools/
+node_modules/
+_build/
+_site/
+_bmad/
+.ipynb_checkpoints/
+__pycache__/
+.pytest_cache/
+test-results/
+playwright-report/
+.cdsapirc
+.env
+*.nc
+*.zip
+*.log
